@@ -16,12 +16,14 @@
 
 package com.google.common.io;
 
-import static com.google.common.base.Charsets.UTF_8;
-import static com.google.common.io.Files.simplifyPath;
+import static com.google.bc.common.base.Charsets.UTF_8;
+import static com.google.bc.common.io.Files.simplifyPath;
 
-import com.google.common.base.CharMatcher;
-import com.google.common.base.Splitter;
+import com.google.bc.common.base.CharMatcher;
+import com.google.bc.common.base.Splitter;
 
+import com.google.bc.common.io.Files;
+import com.google.bc.common.io.Resources;
 import junit.framework.TestCase;
 
 import java.io.IOException;

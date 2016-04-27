@@ -16,18 +16,22 @@
 
 package com.google.common.hash;
 
-import static com.google.common.hash.Hashing.ConcatenatedHashFunction;
-import static com.google.common.hash.Hashing.goodFastHash;
+import static com.google.bc.common.hash.Hashing.ConcatenatedHashFunction;
+import static com.google.bc.common.hash.Hashing.goodFastHash;
 
-import com.google.common.base.Charsets;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableTable;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Table.Cell;
-import com.google.common.primitives.Ints;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableTable;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.Table.Cell;
+import com.google.bc.common.hash.HashCode;
+import com.google.bc.common.hash.HashFunction;
+import com.google.bc.common.hash.Hasher;
+import com.google.bc.common.hash.Hashing;
+import com.google.bc.common.primitives.Ints;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;
-import com.google.common.util.concurrent.AtomicLongMap;
+import com.google.bc.common.util.concurrent.AtomicLongMap;
 
 import junit.framework.TestCase;
 

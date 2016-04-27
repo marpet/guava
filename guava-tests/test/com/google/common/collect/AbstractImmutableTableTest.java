@@ -16,8 +16,9 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtCompatible;
 
+import com.google.bc.common.collect.ImmutableTable;
 import junit.framework.TestCase;
 
 /**

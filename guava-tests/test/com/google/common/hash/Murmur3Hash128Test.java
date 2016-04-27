@@ -16,9 +16,13 @@
 
 package com.google.common.hash;
 
-import static com.google.common.hash.Hashing.murmur3_128;
+import static com.google.bc.common.hash.Hashing.murmur3_128;
 
-import com.google.common.base.Charsets;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.hash.Funnels;
+import com.google.bc.common.hash.HashCode;
+import com.google.bc.common.hash.Hasher;
+import com.google.bc.common.hash.Murmur3_128HashFunction;
 import com.google.common.hash.HashTestUtils.HashFn;
 
 import junit.framework.TestCase;

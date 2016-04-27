@@ -16,6 +16,8 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.*;
+
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;

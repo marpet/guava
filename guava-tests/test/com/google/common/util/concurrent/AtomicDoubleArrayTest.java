@@ -13,7 +13,7 @@
 
 package com.google.common.util.concurrent;
 
-import junit.framework.*;
+import com.google.bc.common.util.concurrent.AtomicDoubleArray;
 
 import java.util.Arrays;
 

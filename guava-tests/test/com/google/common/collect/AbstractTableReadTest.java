@@ -18,9 +18,12 @@ package com.google.common.collect;
 
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Objects;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Objects;
+import com.google.bc.common.collect.HashBasedTable;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.Table;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;
 

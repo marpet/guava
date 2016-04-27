@@ -21,8 +21,10 @@ import static org.easymock.EasyMock.expect;
 import static org.easymock.EasyMock.replay;
 import static org.easymock.EasyMock.verify;
 
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableMap;
+import com.google.bc.common.cache.ForwardingLoadingCache;
+import com.google.bc.common.cache.LoadingCache;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableMap;
 
 import junit.framework.TestCase;
 

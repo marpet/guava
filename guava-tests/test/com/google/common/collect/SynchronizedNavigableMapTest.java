@@ -16,9 +16,13 @@
 
 package com.google.common.collect;
 
-import com.google.common.collect.Synchronized.SynchronizedNavigableMap;
-import com.google.common.collect.Synchronized.SynchronizedNavigableSet;
-import com.google.common.collect.Synchronized.SynchronizedSortedMap;
+import com.google.bc.common.collect.ForwardingMapEntry;
+import com.google.bc.common.collect.Maps;
+import com.google.bc.common.collect.Ordering;
+import com.google.bc.common.collect.Synchronized;
+import com.google.bc.common.collect.Synchronized.SynchronizedNavigableMap;
+import com.google.bc.common.collect.Synchronized.SynchronizedNavigableSet;
+import com.google.bc.common.collect.Synchronized.SynchronizedSortedMap;
 import com.google.common.collect.testing.NavigableMapTestSuiteBuilder;
 import com.google.common.collect.testing.SafeTreeMap;
 import com.google.common.collect.testing.TestStringSortedMapGenerator;

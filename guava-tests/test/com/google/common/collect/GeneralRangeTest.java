@@ -14,12 +14,16 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.BoundType.CLOSED;
-import static com.google.common.collect.BoundType.OPEN;
+import static com.google.bc.common.collect.BoundType.CLOSED;
+import static com.google.bc.common.collect.BoundType.OPEN;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Objects;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Objects;
+import com.google.bc.common.collect.BoundType;
+import com.google.bc.common.collect.GeneralRange;
+import com.google.bc.common.collect.Ordering;
+import com.google.bc.common.collect.Range;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

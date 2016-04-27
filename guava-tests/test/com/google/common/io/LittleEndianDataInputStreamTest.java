@@ -16,7 +16,8 @@
 
 package com.google.common.io;
 
-import com.google.common.primitives.Bytes;
+import com.google.bc.common.io.LittleEndianDataInputStream;
+import com.google.bc.common.primitives.Bytes;
 
 import junit.framework.TestCase;
 

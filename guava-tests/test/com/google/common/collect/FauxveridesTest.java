@@ -16,16 +16,17 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.Lists.transform;
-import static com.google.common.collect.Sets.newHashSet;
-import static com.google.common.collect.Sets.newTreeSet;
+import static com.google.bc.common.collect.Lists.transform;
+import static com.google.bc.common.collect.Sets.newHashSet;
+import static com.google.bc.common.collect.Sets.newTreeSet;
 import static java.lang.reflect.Modifier.isPublic;
 import static java.lang.reflect.Modifier.isStatic;
 
-import com.google.common.base.Function;
-import com.google.common.base.Joiner;
-import com.google.common.base.Objects;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Joiner;
+import com.google.bc.common.base.Objects;
 
+import com.google.bc.common.collect.*;
 import junit.framework.TestCase;
 
 import java.lang.reflect.Method;

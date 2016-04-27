@@ -16,9 +16,10 @@
 
 package com.google.common.escape;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.collect.ImmutableMap;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.collect.ImmutableMap;
 
+import com.google.bc.common.escape.ArrayBasedEscaperMap;
 import junit.framework.TestCase;
 
 import java.util.Map;

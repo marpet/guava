@@ -16,14 +16,15 @@
 
 package com.google.common.base;
 
-import static com.google.common.base.CaseFormat.LOWER_CAMEL;
-import static com.google.common.base.CaseFormat.LOWER_HYPHEN;
-import static com.google.common.base.CaseFormat.LOWER_UNDERSCORE;
-import static com.google.common.base.CaseFormat.UPPER_CAMEL;
-import static com.google.common.base.CaseFormat.UPPER_UNDERSCORE;
+import static com.google.bc.common.base.CaseFormat.LOWER_CAMEL;
+import static com.google.bc.common.base.CaseFormat.LOWER_HYPHEN;
+import static com.google.bc.common.base.CaseFormat.LOWER_UNDERSCORE;
+import static com.google.bc.common.base.CaseFormat.UPPER_CAMEL;
+import static com.google.bc.common.base.CaseFormat.UPPER_UNDERSCORE;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.CaseFormat;
 import com.google.common.testing.NullPointerTester;
 import com.google.common.testing.SerializableTester;
 

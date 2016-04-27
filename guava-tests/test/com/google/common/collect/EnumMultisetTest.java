@@ -18,8 +18,12 @@ package com.google.common.collect;
 
 import static java.util.Arrays.asList;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.EnumMultiset;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Multiset;
+import com.google.bc.common.collect.Sets;
 import com.google.common.collect.testing.AnEnum;
 import com.google.common.collect.testing.features.CollectionFeature;
 import com.google.common.collect.testing.features.CollectionSize;

@@ -28,12 +28,12 @@
 
 package com.google.common.util.concurrent;
 
-import static com.google.common.collect.Iterables.getOnlyElement;
-import static com.google.common.util.concurrent.MoreExecutors.invokeAnyImpl;
-import static com.google.common.util.concurrent.MoreExecutors.listeningDecorator;
-import static com.google.common.util.concurrent.MoreExecutors.renamingDecorator;
-import static com.google.common.util.concurrent.MoreExecutors.sameThreadExecutor;
-import static com.google.common.util.concurrent.MoreExecutors.shutdownAndAwaitTermination;
+import static com.google.bc.common.collect.Iterables.getOnlyElement;
+import static com.google.bc.common.util.concurrent.MoreExecutors.invokeAnyImpl;
+import static com.google.bc.common.util.concurrent.MoreExecutors.listeningDecorator;
+import static com.google.bc.common.util.concurrent.MoreExecutors.renamingDecorator;
+import static com.google.bc.common.util.concurrent.MoreExecutors.sameThreadExecutor;
+import static com.google.bc.common.util.concurrent.MoreExecutors.shutdownAndAwaitTermination;
 import static java.util.concurrent.TimeUnit.NANOSECONDS;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.mockito.Mockito.mock;
@@ -42,12 +42,13 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.base.Suppliers;
-import com.google.common.base.Throwables;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Lists;
+import com.google.bc.common.base.Suppliers;
+import com.google.bc.common.base.Throwables;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.util.concurrent.*;
 import com.google.common.testing.ClassSanityTester;
-import com.google.common.util.concurrent.MoreExecutors.Application;
+import com.google.bc.common.util.concurrent.MoreExecutors.Application;
 
 import org.mockito.InOrder;
 import org.mockito.Mockito;

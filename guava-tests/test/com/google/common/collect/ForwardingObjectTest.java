@@ -16,6 +16,8 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.ForwardingObject;
+import com.google.bc.common.collect.Sets;
 import junit.framework.TestCase;
 
 import java.util.Set;

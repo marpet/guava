@@ -16,7 +16,8 @@
 
 package com.google.common.util.concurrent;
 
-import com.google.common.collect.ObjectArrays;
+import com.google.bc.common.collect.ObjectArrays;
+import com.google.bc.common.util.concurrent.Monitor;
 
 import java.util.AbstractQueue;
 import java.util.Collection;

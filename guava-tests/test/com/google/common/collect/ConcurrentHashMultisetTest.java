@@ -16,17 +16,18 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.MapMakerInternalMap.Strength.STRONG;
-import static com.google.common.collect.MapMakerInternalMap.Strength.WEAK;
+import static com.google.bc.common.collect.MapMakerInternalMap.Strength.STRONG;
+import static com.google.bc.common.collect.MapMakerInternalMap.Strength.WEAK;
 import static com.google.common.testing.SerializableTester.reserializeAndAssert;
 import static java.util.Arrays.asList;
 import static org.easymock.EasyMock.eq;
 import static org.easymock.EasyMock.expect;
 import static org.easymock.EasyMock.isA;
 
-import com.google.common.base.Equivalence;
-import com.google.common.collect.MapMaker.RemovalListener;
-import com.google.common.collect.MapMaker.RemovalNotification;
+import com.google.bc.common.base.Equivalence;
+import com.google.bc.common.collect.*;
+import com.google.bc.common.collect.MapMaker.RemovalListener;
+import com.google.bc.common.collect.MapMaker.RemovalNotification;
 import com.google.common.collect.testing.features.CollectionFeature;
 import com.google.common.collect.testing.features.CollectionSize;
 import com.google.common.collect.testing.google.MultisetTestSuiteBuilder;

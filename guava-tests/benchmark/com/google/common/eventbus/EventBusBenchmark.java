@@ -16,6 +16,8 @@
 
 package com.google.common.eventbus;
 
+import com.google.bc.common.eventbus.EventBus;
+import com.google.bc.common.eventbus.Subscribe;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 

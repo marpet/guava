@@ -16,10 +16,11 @@
 
 package com.google.common.util.concurrent;
 
-import com.google.common.base.Joiner;
-import com.google.common.util.concurrent.CycleDetectingLockFactory.Policies;
-import com.google.common.util.concurrent.CycleDetectingLockFactory.Policy;
-import com.google.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException;
+import com.google.bc.common.base.Joiner;
+import com.google.bc.common.util.concurrent.CycleDetectingLockFactory;
+import com.google.bc.common.util.concurrent.CycleDetectingLockFactory.Policies;
+import com.google.bc.common.util.concurrent.CycleDetectingLockFactory.Policy;
+import com.google.bc.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException;
 
 import junit.framework.TestCase;
 

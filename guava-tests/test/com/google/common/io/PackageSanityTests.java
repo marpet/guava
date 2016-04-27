@@ -16,6 +16,7 @@
 
 package com.google.common.io;
 
+import com.google.bc.common.io.BaseEncoding;
 import com.google.common.testing.AbstractPackageSanityTests;
 
 import java.lang.reflect.Method;

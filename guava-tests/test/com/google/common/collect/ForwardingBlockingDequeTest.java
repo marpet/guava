@@ -16,6 +16,9 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.ForwardingBlockingDeque;
+import com.google.bc.common.collect.Lists;
+
 import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.TimeUnit;
 

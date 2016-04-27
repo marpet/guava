@@ -18,10 +18,11 @@ package com.google.common.hash;
 
 import static org.junit.Assert.assertEquals;
 
-import com.google.common.base.Charsets;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Sets;
-import com.google.common.primitives.Ints;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Sets;
+import com.google.bc.common.hash.*;
+import com.google.bc.common.primitives.Ints;
 import com.google.common.testing.EqualsTester;
 
 import org.junit.Assert;

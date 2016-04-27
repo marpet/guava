@@ -16,8 +16,9 @@
 
 package com.google.common.util.concurrent;
 
-import com.google.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtCompatible;
 
+import com.google.bc.common.util.concurrent.Runnables;
 import junit.framework.TestCase;
 
 /**

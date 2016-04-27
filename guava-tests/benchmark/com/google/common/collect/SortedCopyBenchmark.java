@@ -14,8 +14,11 @@
 
 package com.google.common.collect;
 
-import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.bc.common.base.Preconditions.checkArgument;
 
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableSortedSet;
+import com.google.bc.common.collect.Ordering;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;

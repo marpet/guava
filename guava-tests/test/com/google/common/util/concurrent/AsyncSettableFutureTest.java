@@ -16,6 +16,10 @@
 
 package com.google.common.util.concurrent;
 
+import com.google.bc.common.util.concurrent.AbstractFuture;
+import com.google.bc.common.util.concurrent.AsyncSettableFuture;
+import com.google.bc.common.util.concurrent.ListenableFuture;
+import com.google.bc.common.util.concurrent.SettableFuture;
 import junit.framework.TestCase;
 
 import java.util.concurrent.CancellationException;

@@ -18,10 +18,11 @@ package com.google.common.collect;
 
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Joiner;
-import com.google.common.collect.ImmutableSortedMap.Builder;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Joiner;
+import com.google.bc.common.collect.*;
+import com.google.bc.common.collect.ImmutableSortedMap.Builder;
 import com.google.common.collect.testing.ListTestSuiteBuilder;
 import com.google.common.collect.testing.NavigableMapTestSuiteBuilder;
 import com.google.common.collect.testing.SortedMapInterfaceTest;

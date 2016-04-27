@@ -16,9 +16,11 @@ package com.google.common.collect;
 
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Optional;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Optional;
+import com.google.bc.common.collect.BinaryTreeTraverser;
+import com.google.bc.common.collect.TreeTraverser;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

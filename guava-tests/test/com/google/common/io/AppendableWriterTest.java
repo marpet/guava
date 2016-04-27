@@ -16,6 +16,8 @@
 
 package com.google.common.io;
 
+import com.google.bc.common.io.AppendableWriter;
+
 import java.io.Closeable;
 import java.io.Flushable;
 import java.io.IOException;

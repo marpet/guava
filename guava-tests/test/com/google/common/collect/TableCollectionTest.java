@@ -16,13 +16,14 @@
 
 package com.google.common.collect;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.bc.common.base.Preconditions.checkNotNull;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Function;
-import com.google.common.base.Functions;
-import com.google.common.collect.Table.Cell;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Functions;
+import com.google.bc.common.collect.*;
+import com.google.bc.common.collect.Table.Cell;
 import com.google.common.collect.testing.CollectionTestSuiteBuilder;
 import com.google.common.collect.testing.MapInterfaceTest;
 import com.google.common.collect.testing.SampleElements;

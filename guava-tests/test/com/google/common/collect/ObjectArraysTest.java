@@ -18,8 +18,10 @@ package com.google.common.collect;
 
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.ObjectArrays;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

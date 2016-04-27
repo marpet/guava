@@ -20,7 +20,7 @@ import static org.easymock.EasyMock.createMock;
 import static org.easymock.EasyMock.replay;
 import static org.easymock.EasyMock.verify;
 
-import com.google.common.util.concurrent.UncaughtExceptionHandlers.Exiter;
+import com.google.bc.common.util.concurrent.UncaughtExceptionHandlers.Exiter;
 
 import junit.framework.TestCase;
 

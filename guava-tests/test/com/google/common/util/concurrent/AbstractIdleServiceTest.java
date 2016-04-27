@@ -18,8 +18,11 @@ package com.google.common.util.concurrent;
 
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.collect.Lists;
+import com.google.bc.common.collect.Lists;
 
+import com.google.bc.common.util.concurrent.AbstractIdleService;
+import com.google.bc.common.util.concurrent.MoreExecutors;
+import com.google.bc.common.util.concurrent.Service;
 import junit.framework.TestCase;
 
 import java.util.List;

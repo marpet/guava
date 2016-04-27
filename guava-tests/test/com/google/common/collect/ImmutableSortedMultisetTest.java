@@ -14,12 +14,13 @@
 
 package com.google.common.collect;
 
-import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.bc.common.base.Preconditions.checkArgument;
 import static java.util.Arrays.asList;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.base.Function;
-import com.google.common.collect.Multiset.Entry;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.collect.*;
+import com.google.bc.common.collect.Multiset.Entry;
 import com.google.common.collect.testing.ListTestSuiteBuilder;
 import com.google.common.collect.testing.MinimalCollection;
 import com.google.common.collect.testing.TestStringListGenerator;

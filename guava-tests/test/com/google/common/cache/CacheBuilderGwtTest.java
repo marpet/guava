@@ -16,11 +16,12 @@
 
 package com.google.common.cache;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Sets;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.cache.*;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Sets;
 import com.google.common.testing.FakeTicker;
 
 import junit.framework.TestCase;

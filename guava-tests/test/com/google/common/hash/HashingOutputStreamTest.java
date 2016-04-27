@@ -14,6 +14,7 @@
 
 package com.google.common.hash;
 
+import com.google.bc.common.hash.*;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

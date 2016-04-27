@@ -16,6 +16,9 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.ForwardingSetMultimap;
+import com.google.bc.common.collect.SetMultimap;
+
 /**
  * Unit test for {@link ForwardingSetMultimap}.
  *

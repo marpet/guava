@@ -16,7 +16,10 @@
 
 package com.google.common.net;
 
-import com.google.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.net.HostSpecifier;
+import com.google.bc.common.net.InetAddresses;
+import com.google.bc.common.net.InternetDomainName;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;
 

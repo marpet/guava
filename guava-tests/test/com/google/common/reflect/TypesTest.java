@@ -19,7 +19,9 @@ package com.google.common.reflect;
 import static java.util.Arrays.asList;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.collect.Lists;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.reflect.TypeCapture;
+import com.google.bc.common.reflect.Types;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;
 import com.google.common.testing.NullPointerTester.Visibility;

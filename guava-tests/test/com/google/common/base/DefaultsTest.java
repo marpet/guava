@@ -16,6 +16,7 @@
 
 package com.google.common.base;
 
+import com.google.bc.common.base.Defaults;
 import junit.framework.TestCase;
 
 /**

@@ -17,6 +17,8 @@ package com.google.common.cache;
 import static com.google.common.cache.TestingCacheLoaders.incrementingLoader;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
+import com.google.bc.common.cache.CacheBuilder;
+import com.google.bc.common.cache.LoadingCache;
 import com.google.common.cache.TestingCacheLoaders.IncrementingLoader;
 import com.google.common.testing.FakeTicker;
 

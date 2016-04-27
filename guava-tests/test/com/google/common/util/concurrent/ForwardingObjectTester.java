@@ -16,10 +16,10 @@
 
 package com.google.common.util.concurrent;
 
-import com.google.common.base.Function;
-import com.google.common.base.Throwables;
-import com.google.common.collect.ForwardingObject;
-import com.google.common.collect.Iterables;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Throwables;
+import com.google.bc.common.collect.ForwardingObject;
+import com.google.bc.common.collect.Iterables;
 import com.google.common.testing.ForwardingWrapperTester;
 
 import org.easymock.EasyMock;

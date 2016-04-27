@@ -14,13 +14,14 @@
 
 package com.google.common.cache;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.bc.common.base.Preconditions.checkNotNull;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.collect.Maps;
-import com.google.common.util.concurrent.Futures;
-import com.google.common.util.concurrent.ListenableFuture;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.cache.CacheLoader;
+import com.google.bc.common.collect.Maps;
+import com.google.bc.common.util.concurrent.Futures;
+import com.google.bc.common.util.concurrent.ListenableFuture;
 
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;

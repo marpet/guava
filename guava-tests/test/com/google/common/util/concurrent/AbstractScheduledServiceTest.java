@@ -16,8 +16,11 @@
 
 package com.google.common.util.concurrent;
 
-import com.google.common.util.concurrent.AbstractScheduledService.Scheduler;
-import com.google.common.util.concurrent.Service.State;
+import com.google.bc.common.util.concurrent.AbstractScheduledService;
+import com.google.bc.common.util.concurrent.AbstractScheduledService.Scheduler;
+import com.google.bc.common.util.concurrent.MoreExecutors;
+import com.google.bc.common.util.concurrent.Service;
+import com.google.bc.common.util.concurrent.Service.State;
 
 import junit.framework.TestCase;
 

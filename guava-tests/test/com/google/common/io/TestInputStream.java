@@ -16,13 +16,13 @@
 
 package com.google.common.io;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.bc.common.base.Preconditions.checkNotNull;
 import static com.google.common.io.TestOption.CLOSE_THROWS;
 import static com.google.common.io.TestOption.OPEN_THROWS;
 import static com.google.common.io.TestOption.READ_THROWS;
 import static com.google.common.io.TestOption.SKIP_THROWS;
 
-import com.google.common.collect.ImmutableSet;
+import com.google.bc.common.collect.ImmutableSet;
 
 import java.io.FilterInputStream;
 import java.io.IOException;

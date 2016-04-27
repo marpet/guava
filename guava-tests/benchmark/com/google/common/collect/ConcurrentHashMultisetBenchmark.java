@@ -16,15 +16,16 @@
 
 package com.google.common.collect;
 
-import static com.google.common.base.Preconditions.checkArgument;
-import static com.google.common.collect.CollectPreconditions.checkNonnegative;
+import static com.google.bc.common.base.Preconditions.checkArgument;
+import static com.google.bc.common.collect.CollectPreconditions.checkNonnegative;
 
+import com.google.bc.common.collect.*;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
-import com.google.common.annotations.VisibleForTesting;
-import com.google.common.primitives.Ints;
-import com.google.common.util.concurrent.ThreadFactoryBuilder;
+import com.google.bc.common.annotations.VisibleForTesting;
+import com.google.bc.common.primitives.Ints;
+import com.google.bc.common.util.concurrent.ThreadFactoryBuilder;
 
 import java.util.Iterator;
 import java.util.List;

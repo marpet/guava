@@ -16,9 +16,11 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.collect.Multiset.Entry;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.collect.HashMultiset;
+import com.google.bc.common.collect.Multiset.Entry;
 
+import com.google.bc.common.collect.Multisets;
 import junit.framework.TestCase;
 
 import java.util.Collections;

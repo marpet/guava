@@ -16,14 +16,15 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.BoundType.CLOSED;
-import static com.google.common.collect.BoundType.OPEN;
-import static com.google.common.collect.DiscreteDomain.integers;
+import static com.google.bc.common.collect.BoundType.CLOSED;
+import static com.google.bc.common.collect.BoundType.OPEN;
+import static com.google.bc.common.collect.DiscreteDomain.integers;
 import static com.google.common.testing.SerializableTester.reserializeAndAssert;
 import static java.util.Arrays.asList;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.base.Predicate;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.collect.*;
 import com.google.common.collect.testing.Helpers;
 import com.google.common.testing.EqualsTester;
 

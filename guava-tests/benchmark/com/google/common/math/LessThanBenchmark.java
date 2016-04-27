@@ -16,6 +16,8 @@
 
 package com.google.common.math;
 
+import com.google.bc.common.math.IntMath;
+import com.google.bc.common.math.LongMath;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;

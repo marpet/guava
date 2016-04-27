@@ -16,6 +16,8 @@
 
 package com.google.common.io;
 
+import com.google.bc.common.io.CountingOutputStream;
+
 import java.io.ByteArrayOutputStream;
 
 /**

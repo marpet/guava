@@ -16,6 +16,8 @@
 
 package com.google.common.base;
 
+import com.google.bc.common.base.Objects;
+import com.google.bc.common.base.Strings;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
 

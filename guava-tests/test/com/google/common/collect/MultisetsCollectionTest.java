@@ -18,10 +18,11 @@ package com.google.common.collect;
 
 import static java.util.Arrays.asList;
 
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Objects;
-import com.google.common.base.Predicate;
-import com.google.common.base.Predicates;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Objects;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.base.Predicates;
+import com.google.bc.common.collect.*;
 import com.google.common.collect.testing.features.CollectionFeature;
 import com.google.common.collect.testing.features.CollectionSize;
 import com.google.common.collect.testing.google.MultisetTestSuiteBuilder;

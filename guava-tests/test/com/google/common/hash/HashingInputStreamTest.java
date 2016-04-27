@@ -17,6 +17,7 @@ package com.google.common.hash;
 import static org.easymock.EasyMock.aryEq;
 import static org.easymock.EasyMock.eq;
 
+import com.google.bc.common.hash.*;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

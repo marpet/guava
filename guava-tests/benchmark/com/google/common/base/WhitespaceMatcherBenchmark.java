@@ -16,11 +16,12 @@
 
 package com.google.common.base;
 
+import com.google.bc.common.base.CharMatcher;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
 import com.google.caliper.runner.CaliperMain;
-import com.google.common.base.CharMatcher.FastMatcher;
+import com.google.bc.common.base.CharMatcher.FastMatcher;
 
 import java.util.BitSet;
 import java.util.Random;

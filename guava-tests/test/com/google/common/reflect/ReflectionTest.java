@@ -16,6 +16,7 @@
 
 package com.google.common.reflect;
 
+import com.google.bc.common.reflect.Reflection;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

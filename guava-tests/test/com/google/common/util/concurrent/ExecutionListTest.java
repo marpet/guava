@@ -16,10 +16,11 @@
 
 package com.google.common.util.concurrent;
 
-import static com.google.common.util.concurrent.MoreExecutors.sameThreadExecutor;
+import static com.google.bc.common.util.concurrent.MoreExecutors.sameThreadExecutor;
 
+import com.google.bc.common.util.concurrent.MoreExecutors;
 import com.google.common.testing.NullPointerTester;
-import com.google.common.util.concurrent.ExecutionList;
+import com.google.bc.common.util.concurrent.ExecutionList;
 
 import junit.framework.TestCase;
 

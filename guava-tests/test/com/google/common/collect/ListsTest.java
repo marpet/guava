@@ -16,16 +16,19 @@
 
 package com.google.common.collect;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.bc.common.base.Preconditions.checkNotNull;
 import static com.google.common.collect.testing.IteratorFeature.UNMODIFIABLE;
 import static java.util.Arrays.asList;
 import static java.util.Collections.singletonList;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Function;
-import com.google.common.base.Functions;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Functions;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Iterables;
+import com.google.bc.common.collect.Lists;
 import com.google.common.collect.testing.IteratorTester;
 import com.google.common.collect.testing.ListTestSuiteBuilder;
 import com.google.common.collect.testing.TestStringListGenerator;

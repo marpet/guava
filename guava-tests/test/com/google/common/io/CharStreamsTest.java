@@ -16,8 +16,10 @@
 
 package com.google.common.io;
 
-import com.google.common.base.Strings;
-import com.google.common.collect.ImmutableList;
+import com.google.bc.common.base.Strings;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.io.CharStreams;
+import com.google.bc.common.io.LineProcessor;
 
 import java.io.EOFException;
 import java.io.FilterReader;

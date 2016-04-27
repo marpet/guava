@@ -16,6 +16,8 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.ForwardingSortedMap;
+import com.google.bc.common.collect.ImmutableSortedMap;
 import com.google.common.collect.testing.Helpers.NullsBeforeTwo;
 import com.google.common.collect.testing.SafeTreeMap;
 import com.google.common.collect.testing.SortedMapTestSuiteBuilder;

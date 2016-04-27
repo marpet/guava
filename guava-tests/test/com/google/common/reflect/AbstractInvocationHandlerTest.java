@@ -16,9 +16,11 @@
 
 package com.google.common.reflect;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.bc.common.base.Preconditions.checkNotNull;
 
-import com.google.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.reflect.AbstractInvocationHandler;
+import com.google.bc.common.reflect.Reflection;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.SerializableTester;
 

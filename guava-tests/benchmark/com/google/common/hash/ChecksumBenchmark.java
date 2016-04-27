@@ -16,6 +16,8 @@
 
 package com.google.common.hash;
 
+import com.google.bc.common.hash.HashFunction;
+import com.google.bc.common.hash.Hashing;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;

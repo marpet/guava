@@ -16,7 +16,11 @@
 
 package com.google.common.collect;
 
-import com.google.common.util.concurrent.Uninterruptibles;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.Ordering;
+import com.google.bc.common.collect.Queues;
+import com.google.bc.common.util.concurrent.Uninterruptibles;
 
 import junit.framework.TestCase;
 

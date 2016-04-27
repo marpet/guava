@@ -16,11 +16,15 @@
 
 package com.google.common.cache;
 
-import static com.google.common.cache.CacheBuilderSpec.parse;
+import static com.google.bc.common.cache.CacheBuilderSpec.parse;
 import static com.google.common.cache.TestingWeighers.constantWeigher;
 
-import com.google.common.base.Suppliers;
-import com.google.common.cache.LocalCache.Strength;
+import com.google.bc.common.base.Suppliers;
+import com.google.bc.common.cache.CacheBuilder;
+import com.google.bc.common.cache.CacheBuilderSpec;
+import com.google.bc.common.cache.CacheLoader;
+import com.google.bc.common.cache.LoadingCache;
+import com.google.bc.common.cache.LocalCache.Strength;
 import com.google.common.testing.EqualsTester;
 
 import junit.framework.TestCase;

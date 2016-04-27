@@ -21,15 +21,17 @@ import static java.util.concurrent.TimeUnit.DAYS;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.base.Function;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.cache.CacheBuilder;
+import com.google.bc.common.cache.LoadingCache;
 import com.google.common.cache.CacheBuilderFactory.DurationSpec;
-import com.google.common.cache.LocalCache.Strength;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Iterables;
-import com.google.common.collect.Iterators;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
+import com.google.bc.common.cache.LocalCache.Strength;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Iterables;
+import com.google.bc.common.collect.Iterators;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.Maps;
 import com.google.common.testing.EqualsTester;
 
 import junit.framework.TestCase;

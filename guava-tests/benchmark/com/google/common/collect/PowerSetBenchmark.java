@@ -16,8 +16,11 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.DiscreteDomain.integers;
+import static com.google.bc.common.collect.DiscreteDomain.integers;
 
+import com.google.bc.common.collect.ContiguousSet;
+import com.google.bc.common.collect.Range;
+import com.google.bc.common.collect.Sets;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;

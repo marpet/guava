@@ -16,12 +16,12 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.Iterables.unmodifiableIterable;
-import static com.google.common.collect.Sets.newEnumSet;
-import static com.google.common.collect.Sets.newHashSet;
-import static com.google.common.collect.Sets.newLinkedHashSet;
-import static com.google.common.collect.Sets.powerSet;
-import static com.google.common.collect.Sets.unmodifiableNavigableSet;
+import static com.google.bc.common.collect.Iterables.unmodifiableIterable;
+import static com.google.bc.common.collect.Sets.newEnumSet;
+import static com.google.bc.common.collect.Sets.newHashSet;
+import static com.google.bc.common.collect.Sets.newLinkedHashSet;
+import static com.google.bc.common.collect.Sets.powerSet;
+import static com.google.bc.common.collect.Sets.unmodifiableNavigableSet;
 import static com.google.common.collect.testing.IteratorFeature.UNMODIFIABLE;
 import static java.io.ObjectStreamConstants.TC_REFERENCE;
 import static java.io.ObjectStreamConstants.baseWireHandle;
@@ -29,8 +29,9 @@ import static java.util.Collections.emptySet;
 import static java.util.Collections.singleton;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.*;
 import com.google.common.collect.testing.AnEnum;
 import com.google.common.collect.testing.IteratorTester;
 import com.google.common.collect.testing.MinimalIterable;

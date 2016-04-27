@@ -18,6 +18,7 @@ package com.google.common.collect;
 
 import static org.truth0.Truth.ASSERT;
 
+import com.google.bc.common.collect.*;
 import com.google.common.collect.testing.IteratorFeature;
 import com.google.common.collect.testing.IteratorTester;
 import com.google.common.testing.NullPointerTester;

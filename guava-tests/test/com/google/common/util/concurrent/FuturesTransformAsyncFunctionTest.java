@@ -16,9 +16,13 @@
 
 package com.google.common.util.concurrent;
 
-import static com.google.common.util.concurrent.Uninterruptibles.awaitUninterruptibly;
+import static com.google.bc.common.util.concurrent.Uninterruptibles.awaitUninterruptibly;
 
-import com.google.common.util.concurrent.ForwardingListenableFuture.SimpleForwardingListenableFuture;
+import com.google.bc.common.util.concurrent.AsyncFunction;
+import com.google.bc.common.util.concurrent.ForwardingListenableFuture.SimpleForwardingListenableFuture;
+import com.google.bc.common.util.concurrent.Futures;
+import com.google.bc.common.util.concurrent.ListenableFuture;
+import com.google.bc.common.util.concurrent.SettableFuture;
 
 import java.lang.reflect.UndeclaredThrowableException;
 import java.util.concurrent.CancellationException;

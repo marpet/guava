@@ -16,6 +16,8 @@
 
 package com.google.common.base;
 
+import com.google.bc.common.base.Enums;
+import com.google.bc.common.base.Preconditions;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;

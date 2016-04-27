@@ -16,11 +16,14 @@
 
 package com.google.common.cache;
 
+import com.google.bc.common.cache.CacheBuilder;
+import com.google.bc.common.cache.CacheLoader;
+import com.google.bc.common.cache.LoadingCache;
 import com.google.caliper.AfterExperiment;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
-import com.google.common.primitives.Ints;
+import com.google.bc.common.primitives.Ints;
 
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicLong;

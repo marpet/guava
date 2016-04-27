@@ -14,7 +14,7 @@
 
 package com.google.common.cache;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.bc.common.base.Preconditions.checkNotNull;
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertNotNull;
@@ -23,16 +23,19 @@ import static junit.framework.Assert.assertNull;
 import static junit.framework.Assert.assertSame;
 import static junit.framework.Assert.assertTrue;
 
-import com.google.common.base.Preconditions;
-import com.google.common.cache.LocalCache.LocalLoadingCache;
-import com.google.common.cache.LocalCache.ReferenceEntry;
-import com.google.common.cache.LocalCache.Segment;
-import com.google.common.cache.LocalCache.ValueReference;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Maps;
-import com.google.common.collect.Sets;
+import com.google.bc.common.base.Preconditions;
+import com.google.bc.common.cache.Cache;
+import com.google.bc.common.cache.LoadingCache;
+import com.google.bc.common.cache.LocalCache;
+import com.google.bc.common.cache.LocalCache.LocalLoadingCache;
+import com.google.bc.common.cache.LocalCache.ReferenceEntry;
+import com.google.bc.common.cache.LocalCache.Segment;
+import com.google.bc.common.cache.LocalCache.ValueReference;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Maps;
+import com.google.bc.common.collect.Sets;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.FakeTicker;
 
@@ -379,7 +382,7 @@ class CacheTesting {
    * verify that the head of the eviction queue has changed as a result of the operation.
    */
   static void checkRecency(LoadingCache<Integer, Integer> cache, int maxSize,
-      Receiver<ReferenceEntry<Integer, Integer>> operation) {
+                           Receiver<ReferenceEntry<Integer, Integer>> operation) {
     checkNotNull(operation);
     if (hasLocalCache(cache)) {
       warmUp(cache, 0, 2 * maxSize);

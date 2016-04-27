@@ -16,7 +16,11 @@
 
 package com.google.common.io;
 
-import com.google.common.base.Charsets;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.io.ByteArrayDataInput;
+import com.google.bc.common.io.ByteArrayDataOutput;
+import com.google.bc.common.io.ByteProcessor;
+import com.google.bc.common.io.ByteStreams;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

@@ -16,6 +16,9 @@
 
 package com.google.common.cache;
 
+import com.google.bc.common.cache.CacheBuilder;
+import com.google.bc.common.cache.CacheLoader;
+import com.google.bc.common.cache.LocalCache;
 import com.google.common.testing.AbstractPackageSanityTests;
 
 /**

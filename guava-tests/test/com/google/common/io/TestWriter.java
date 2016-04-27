@@ -16,8 +16,10 @@
 
 package com.google.common.io;
 
-import static com.google.common.base.Charsets.UTF_8;
-import static com.google.common.base.Preconditions.checkNotNull;
+import com.google.bc.common.io.ByteStreams;
+
+import static com.google.bc.common.base.Charsets.UTF_8;
+import static com.google.bc.common.base.Preconditions.checkNotNull;
 
 import java.io.FilterWriter;
 import java.io.IOException;

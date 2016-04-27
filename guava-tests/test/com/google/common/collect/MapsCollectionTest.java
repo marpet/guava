@@ -15,14 +15,15 @@
  */
 package com.google.common.collect;
 
-import static com.google.common.base.Preconditions.checkArgument;
-import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.bc.common.base.Preconditions.checkArgument;
+import static com.google.bc.common.base.Preconditions.checkNotNull;
 import static com.google.common.collect.testing.Helpers.mapEntry;
 
-import com.google.common.base.Charsets;
-import com.google.common.base.Function;
-import com.google.common.base.Predicate;
-import com.google.common.collect.Maps.EntryTransformer;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.collect.*;
+import com.google.bc.common.collect.Maps.EntryTransformer;
 import com.google.common.collect.testing.Helpers;
 import com.google.common.collect.testing.MapTestSuiteBuilder;
 import com.google.common.collect.testing.NavigableMapTestSuiteBuilder;
@@ -37,7 +38,7 @@ import com.google.common.collect.testing.features.CollectionSize;
 import com.google.common.collect.testing.features.MapFeature;
 import com.google.common.collect.testing.google.BiMapTestSuiteBuilder;
 import com.google.common.collect.testing.google.TestStringBiMapGenerator;
-import com.google.common.io.BaseEncoding;
+import com.google.bc.common.io.BaseEncoding;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

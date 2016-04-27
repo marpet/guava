@@ -16,6 +16,10 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.ArrayListMultimap;
+import com.google.bc.common.collect.ForwardingMultimap;
+import com.google.bc.common.collect.Multimap;
+
 import java.util.Collections;
 
 /**

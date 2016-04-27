@@ -16,8 +16,9 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.collect.ImmutableMultimap.Builder;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.collect.*;
+import com.google.bc.common.collect.ImmutableMultimap.Builder;
 import com.google.common.collect.testing.SampleElements;
 import com.google.common.collect.testing.SampleElements.Unhashables;
 import com.google.common.collect.testing.UnhashableObject;

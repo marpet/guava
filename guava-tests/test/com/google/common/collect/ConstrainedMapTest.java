@@ -16,8 +16,10 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.MapConstraint;
+import com.google.bc.common.collect.MapConstraints;
 import com.google.common.collect.MapConstraintsTest.TestKeyException;
 import com.google.common.collect.MapConstraintsTest.TestValueException;
 import com.google.common.collect.testing.MapTestSuiteBuilder;

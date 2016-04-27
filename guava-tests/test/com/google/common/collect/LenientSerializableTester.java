@@ -20,8 +20,11 @@ import static com.google.common.testing.SerializableTester.reserialize;
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.ImmutableMultiset;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Multiset;
 import com.google.common.testing.SerializableTester;
 
 import java.util.Set;

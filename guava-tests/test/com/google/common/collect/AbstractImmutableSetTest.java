@@ -20,8 +20,9 @@ import static com.google.common.collect.testing.IteratorFeature.UNMODIFIABLE;
 import static java.util.Arrays.asList;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.*;
 import com.google.common.collect.testing.Helpers;
 import com.google.common.collect.testing.IteratorTester;
 import com.google.common.collect.testing.MinimalCollection;

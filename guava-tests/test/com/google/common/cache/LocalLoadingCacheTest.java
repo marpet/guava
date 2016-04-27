@@ -16,15 +16,19 @@
 
 package com.google.common.cache;
 
-import static com.google.common.cache.CacheBuilder.EMPTY_STATS;
+import static com.google.bc.common.cache.CacheBuilder.EMPTY_STATS;
 import static com.google.common.cache.LocalCacheTest.SMALL_MAX_SIZE;
 import static com.google.common.cache.TestingCacheLoaders.identityLoader;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.cache.LocalCache.LocalLoadingCache;
-import com.google.common.cache.LocalCache.Segment;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableSet;
+import com.google.bc.common.cache.CacheBuilder;
+import com.google.bc.common.cache.CacheLoader;
+import com.google.bc.common.cache.CacheStats;
+import com.google.bc.common.cache.LoadingCache;
+import com.google.bc.common.cache.LocalCache.LocalLoadingCache;
+import com.google.bc.common.cache.LocalCache.Segment;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.ImmutableSet;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;
@@ -43,7 +47,7 @@ import java.util.concurrent.atomic.AtomicReference;
 public class LocalLoadingCacheTest extends TestCase {
 
   private static <K, V> LocalLoadingCache<K, V> makeCache(
-      CacheBuilder<K, V> builder, CacheLoader<? super K, V> loader) {
+          CacheBuilder<K, V> builder, CacheLoader<? super K, V> loader) {
     return new LocalLoadingCache<K, V>(builder, loader);
   }
 

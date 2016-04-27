@@ -18,9 +18,10 @@ package com.google.common.io;
 
 import static com.google.common.io.SourceSinkFactory.CharSinkFactory;
 
-import com.google.common.base.Joiner;
-import com.google.common.collect.ImmutableList;
+import com.google.bc.common.base.Joiner;
+import com.google.bc.common.collect.ImmutableList;
 
+import com.google.bc.common.io.CharSink;
 import junit.framework.TestSuite;
 
 import java.io.IOException;

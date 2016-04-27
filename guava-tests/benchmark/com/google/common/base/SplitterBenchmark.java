@@ -16,10 +16,12 @@
 
 package com.google.common.base;
 
+import com.google.bc.common.base.Splitter;
+import com.google.bc.common.base.Strings;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
-import com.google.common.collect.Iterables;
+import com.google.bc.common.collect.Iterables;
 
 /**
  * Microbenchmark for {@link Splitter#on} with char vs String with length == 1.

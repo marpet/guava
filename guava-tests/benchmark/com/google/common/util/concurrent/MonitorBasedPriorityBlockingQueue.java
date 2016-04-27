@@ -16,7 +16,9 @@
 
 package com.google.common.util.concurrent;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import com.google.bc.common.util.concurrent.Monitor;
+
+import static com.google.bc.common.base.Preconditions.checkNotNull;
 
 import java.util.AbstractQueue;
 import java.util.Collection;

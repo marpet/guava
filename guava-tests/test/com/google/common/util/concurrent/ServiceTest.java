@@ -16,13 +16,14 @@
 
 package com.google.common.util.concurrent;
 
-import static com.google.common.util.concurrent.Service.State.FAILED;
-import static com.google.common.util.concurrent.Service.State.NEW;
-import static com.google.common.util.concurrent.Service.State.RUNNING;
-import static com.google.common.util.concurrent.Service.State.STARTING;
-import static com.google.common.util.concurrent.Service.State.STOPPING;
-import static com.google.common.util.concurrent.Service.State.TERMINATED;
+import static com.google.bc.common.util.concurrent.Service.State.FAILED;
+import static com.google.bc.common.util.concurrent.Service.State.NEW;
+import static com.google.bc.common.util.concurrent.Service.State.RUNNING;
+import static com.google.bc.common.util.concurrent.Service.State.STARTING;
+import static com.google.bc.common.util.concurrent.Service.State.STOPPING;
+import static com.google.bc.common.util.concurrent.Service.State.TERMINATED;
 
+import com.google.bc.common.util.concurrent.Service;
 import junit.framework.TestCase;
 
 /**

@@ -19,9 +19,10 @@ package com.google.common.xml;
 import static com.google.common.escape.testing.EscaperAsserts.assertEscaping;
 import static com.google.common.escape.testing.EscaperAsserts.assertUnescaped;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.escape.CharEscaper;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.escape.CharEscaper;
 
+import com.google.bc.common.xml.XmlEscapers;
 import junit.framework.TestCase;
 
 /**

@@ -16,15 +16,16 @@
 
 package com.google.common.util.concurrent;
 
-import static com.google.common.collect.Iterables.concat;
+import static com.google.bc.common.collect.Iterables.concat;
 
-import com.google.common.base.Functions;
-import com.google.common.base.Supplier;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
-import com.google.common.collect.Ordering;
-import com.google.common.collect.Sets;
+import com.google.bc.common.base.Functions;
+import com.google.bc.common.base.Supplier;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.Maps;
+import com.google.bc.common.collect.Ordering;
+import com.google.bc.common.collect.Sets;
+import com.google.bc.common.util.concurrent.Striped;
 import com.google.common.testing.GcFinalization;
 import com.google.common.testing.NullPointerTester;
 

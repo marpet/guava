@@ -16,8 +16,10 @@
 
 package com.google.common.io;
 
-import com.google.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableList;
 
+import com.google.bc.common.io.CharSource;
+import com.google.bc.common.io.CharStreams;
 import junit.framework.TestCase;
 
 import java.io.FilterReader;

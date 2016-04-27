@@ -16,9 +16,10 @@
 
 package com.google.common.base;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.collect.ImmutableMap;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Objects;
+import com.google.bc.common.collect.ImmutableMap;
 
 import junit.framework.TestCase;
 

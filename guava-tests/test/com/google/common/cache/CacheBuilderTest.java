@@ -25,13 +25,14 @@ import static com.google.common.cache.TestingWeighers.constantWeigher;
 import static java.util.concurrent.TimeUnit.NANOSECONDS;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Ticker;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Ticker;
+import com.google.bc.common.cache.*;
 import com.google.common.cache.TestingRemovalListeners.CountingRemovalListener;
 import com.google.common.cache.TestingRemovalListeners.QueuingRemovalListener;
-import com.google.common.collect.Maps;
-import com.google.common.collect.Sets;
+import com.google.bc.common.collect.Maps;
+import com.google.bc.common.collect.Sets;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

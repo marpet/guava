@@ -16,7 +16,9 @@
 
 package com.google.common.collect;
 
-import com.google.common.base.Function;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.collect.Interner;
+import com.google.bc.common.collect.Interners;
 import com.google.common.testing.GcFinalization;
 import com.google.common.testing.NullPointerTester;
 

@@ -16,8 +16,11 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Predicate;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.collect.HashMultimap;
+import com.google.bc.common.collect.Multimap;
+import com.google.bc.common.collect.Multimaps;
 
 import java.util.Collection;
 import java.util.Map;

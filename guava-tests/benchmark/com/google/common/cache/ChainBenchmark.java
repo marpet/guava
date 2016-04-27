@@ -16,11 +16,13 @@
 
 package com.google.common.cache;
 
+import com.google.bc.common.cache.CacheBuilder;
+import com.google.bc.common.cache.LocalCache;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
-import com.google.common.cache.LocalCache.ReferenceEntry;
-import com.google.common.cache.LocalCache.Segment;
+import com.google.bc.common.cache.LocalCache.ReferenceEntry;
+import com.google.bc.common.cache.LocalCache.Segment;
 
 /**
  * Benchmark for {@code LocalCache.Segment.removeEntryFromChain}.

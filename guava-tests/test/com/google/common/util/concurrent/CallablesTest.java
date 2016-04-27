@@ -16,9 +16,10 @@
 
 package com.google.common.util.concurrent;
 
-import com.google.common.base.Supplier;
-import com.google.common.base.Suppliers;
+import com.google.bc.common.base.Supplier;
+import com.google.bc.common.base.Suppliers;
 
+import com.google.bc.common.util.concurrent.Callables;
 import junit.framework.TestCase;
 
 import java.security.Permission;

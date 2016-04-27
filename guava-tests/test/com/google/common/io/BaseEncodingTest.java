@@ -14,18 +14,19 @@
 
 package com.google.common.io;
 
-import static com.google.common.io.BaseEncoding.base16;
-import static com.google.common.io.BaseEncoding.base32;
-import static com.google.common.io.BaseEncoding.base32Hex;
-import static com.google.common.io.BaseEncoding.base64;
+import static com.google.bc.common.io.BaseEncoding.base16;
+import static com.google.bc.common.io.BaseEncoding.base32;
+import static com.google.bc.common.io.BaseEncoding.base32Hex;
+import static com.google.bc.common.io.BaseEncoding.base64;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Ascii;
-import com.google.common.base.Joiner;
-import com.google.common.base.Splitter;
-import com.google.common.collect.ImmutableList;
-import com.google.common.io.BaseEncoding.DecodingException;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Ascii;
+import com.google.bc.common.base.Joiner;
+import com.google.bc.common.base.Splitter;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.io.BaseEncoding;
+import com.google.bc.common.io.BaseEncoding.DecodingException;
 
 import junit.framework.TestCase;
 

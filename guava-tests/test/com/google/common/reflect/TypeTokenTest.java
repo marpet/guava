@@ -18,12 +18,13 @@ package com.google.common.reflect;
 
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.base.Function;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Maps;
-import com.google.common.primitives.Primitives;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Maps;
+import com.google.bc.common.primitives.Primitives;
+import com.google.bc.common.reflect.*;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;
 import com.google.common.testing.SerializableTester;

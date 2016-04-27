@@ -16,6 +16,7 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.DiscreteDomain;
 import com.google.common.testing.AbstractPackageSanityTests;
 
 /**

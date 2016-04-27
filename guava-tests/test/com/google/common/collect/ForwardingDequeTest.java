@@ -16,6 +16,8 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.ForwardingDeque;
+
 import java.util.Collections;
 import java.util.Deque;
 

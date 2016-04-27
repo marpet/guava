@@ -16,11 +16,12 @@
 
 package com.google.common.hash;
 
-import static com.google.common.hash.BloomFilterStrategies.BitArray;
+import static com.google.bc.common.hash.BloomFilterStrategies.BitArray;
 
-import com.google.common.collect.ImmutableSet;
-import com.google.common.math.LongMath;
-import com.google.common.primitives.Ints;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.hash.*;
+import com.google.bc.common.math.LongMath;
+import com.google.bc.common.primitives.Ints;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;
 import com.google.common.testing.SerializableTester;

@@ -18,6 +18,8 @@ package com.google.common.collect;
 
 import static java.util.Arrays.asList;
 
+import com.google.bc.common.collect.ForwardingCollection;
+import com.google.bc.common.collect.Lists;
 import com.google.common.collect.testing.CollectionTestSuiteBuilder;
 import com.google.common.collect.testing.MinimalCollection;
 import com.google.common.collect.testing.TestStringCollectionGenerator;

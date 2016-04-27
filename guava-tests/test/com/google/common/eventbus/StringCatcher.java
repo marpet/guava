@@ -16,8 +16,9 @@
 
 package com.google.common.eventbus;
 
-import com.google.common.collect.Lists;
+import com.google.bc.common.collect.Lists;
 
+import com.google.bc.common.eventbus.Subscribe;
 import junit.framework.Assert;
 
 import java.util.List;

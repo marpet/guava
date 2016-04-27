@@ -16,13 +16,16 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.Iterators.peekingIterator;
+import static com.google.bc.common.collect.Iterators.peekingIterator;
 import static com.google.common.collect.testing.IteratorFeature.MODIFIABLE;
 import static com.google.common.collect.testing.IteratorFeature.UNMODIFIABLE;
 import static java.util.Collections.emptyList;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.Iterators;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.PeekingIterator;
 import com.google.common.collect.testing.IteratorTester;
 
 import junit.framework.TestCase;

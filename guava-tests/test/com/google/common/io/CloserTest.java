@@ -16,13 +16,15 @@
 
 package com.google.common.io;
 
-import com.google.common.base.Objects;
-import com.google.common.base.Splitter;
-import com.google.common.base.Throwables;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Iterables;
-import com.google.common.collect.Lists;
+import com.google.bc.common.base.Objects;
+import com.google.bc.common.base.Splitter;
+import com.google.bc.common.base.Throwables;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Iterables;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.io.Closeables;
+import com.google.bc.common.io.Closer;
 import com.google.common.testing.TestLogHandler;
 
 import junit.framework.TestCase;

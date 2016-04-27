@@ -16,10 +16,13 @@
 
 package com.google.common.cache;
 
-import com.google.common.cache.AbstractCache.SimpleStatsCounter;
-import com.google.common.cache.AbstractCache.StatsCounter;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Lists;
+import com.google.bc.common.cache.AbstractCache;
+import com.google.bc.common.cache.AbstractCache.SimpleStatsCounter;
+import com.google.bc.common.cache.AbstractCache.StatsCounter;
+import com.google.bc.common.cache.Cache;
+import com.google.bc.common.cache.CacheStats;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Lists;
 
 import junit.framework.TestCase;
 

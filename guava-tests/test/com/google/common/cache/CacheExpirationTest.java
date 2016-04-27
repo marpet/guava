@@ -20,11 +20,12 @@ import static java.util.Arrays.asList;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static org.truth0.Truth.ASSERT;
 
+import com.google.bc.common.cache.*;
 import com.google.common.cache.TestingCacheLoaders.IdentityLoader;
 import com.google.common.cache.TestingRemovalListeners.CountingRemovalListener;
-import com.google.common.collect.Iterators;
+import com.google.bc.common.collect.Iterators;
 import com.google.common.testing.FakeTicker;
-import com.google.common.util.concurrent.Callables;
+import com.google.bc.common.util.concurrent.Callables;
 
 import junit.framework.TestCase;
 

@@ -18,6 +18,7 @@ package com.google.common.util.concurrent;
 
 import static org.truth0.Truth.ASSERT;
 
+import com.google.bc.common.util.concurrent.ThreadFactoryBuilder;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

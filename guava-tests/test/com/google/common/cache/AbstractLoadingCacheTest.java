@@ -16,8 +16,10 @@
 
 package com.google.common.cache;
 
-import com.google.common.util.concurrent.ExecutionError;
-import com.google.common.util.concurrent.UncheckedExecutionException;
+import com.google.bc.common.cache.AbstractLoadingCache;
+import com.google.bc.common.cache.LoadingCache;
+import com.google.bc.common.util.concurrent.ExecutionError;
+import com.google.bc.common.util.concurrent.UncheckedExecutionException;
 
 import junit.framework.TestCase;
 

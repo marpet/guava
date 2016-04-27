@@ -16,8 +16,12 @@
 
 package com.google.common.collect;
 
-import com.google.common.base.Function;
-import com.google.common.primitives.Ints;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.collect.ConcurrentHashMultiset;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.MapMaker;
+import com.google.bc.common.primitives.Ints;
 
 import junit.framework.TestCase;
 

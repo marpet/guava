@@ -18,9 +18,13 @@ package com.google.common.base;
 
 import static com.google.common.testing.SerializableTester.reserialize;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.collect.Lists;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Functions;
+import com.google.bc.common.base.Supplier;
+import com.google.bc.common.base.Suppliers;
+import com.google.bc.common.collect.Lists;
 import com.google.common.testing.ClassSanityTester;
 import com.google.common.testing.EqualsTester;
 
@@ -35,7 +39,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
- * Tests com.google.common.base.Suppliers.
+ * Tests Suppliers.
  *
  * @author Laurence Gonsalves
  * @author Harry Heymann

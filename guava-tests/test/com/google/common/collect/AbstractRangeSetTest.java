@@ -14,8 +14,11 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
 
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Range;
+import com.google.bc.common.collect.RangeSet;
 import junit.framework.TestCase;
 
 import java.util.Iterator;

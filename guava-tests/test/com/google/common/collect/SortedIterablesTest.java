@@ -14,8 +14,12 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtCompatible;
 
+import com.google.bc.common.collect.Maps;
+import com.google.bc.common.collect.Ordering;
+import com.google.bc.common.collect.Sets;
+import com.google.bc.common.collect.SortedIterables;
 import junit.framework.TestCase;
 
 import java.util.SortedSet;

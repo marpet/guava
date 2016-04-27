@@ -16,6 +16,7 @@
 
 package com.google.common.util.concurrent;
 
+import com.google.bc.common.util.concurrent.CycleDetectingLockFactory;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;

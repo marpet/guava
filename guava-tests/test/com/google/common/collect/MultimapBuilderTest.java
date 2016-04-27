@@ -16,9 +16,10 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.collect.MultimapBuilder.MultimapBuilderWithKeys;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.*;
+import com.google.bc.common.collect.MultimapBuilder.MultimapBuilderWithKeys;
 import com.google.common.testing.SerializableTester;
 
 import junit.framework.TestCase;

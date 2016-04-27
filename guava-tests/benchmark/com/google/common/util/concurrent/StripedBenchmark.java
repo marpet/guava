@@ -16,17 +16,18 @@
 
 package com.google.common.util.concurrent;
 
-import static com.google.common.collect.Iterables.cycle;
-import static com.google.common.collect.Iterables.limit;
+import static com.google.bc.common.collect.Iterables.cycle;
+import static com.google.bc.common.collect.Iterables.limit;
 
+import com.google.bc.common.util.concurrent.Striped;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
 import com.google.caliper.api.Footprint;
 import com.google.caliper.api.VmOptions;
-import com.google.common.base.Supplier;
-import com.google.common.collect.ImmutableList;
-import com.google.common.primitives.Ints;
+import com.google.bc.common.base.Supplier;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.primitives.Ints;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -51,7 +52,8 @@ public class StripedBenchmark {
 
   enum Impl {
     EAGER {
-      @Override Striped<Lock> get(int stripes) {
+      @Override
+      Striped<Lock> get(int stripes) {
         return Striped.lock(stripes);
       }
     },

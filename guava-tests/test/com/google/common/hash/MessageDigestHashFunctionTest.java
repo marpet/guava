@@ -16,10 +16,11 @@
 
 package com.google.common.hash;
 
-import com.google.common.base.Charsets;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableSet;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.ImmutableSet;
 
+import com.google.bc.common.hash.*;
 import junit.framework.TestCase;
 
 import java.security.MessageDigest;

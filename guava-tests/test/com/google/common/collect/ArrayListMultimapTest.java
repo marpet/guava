@@ -19,8 +19,12 @@ package com.google.common.collect;
 import static java.util.Arrays.asList;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.ArrayListMultimap;
+import com.google.bc.common.collect.HashMultimap;
+import com.google.bc.common.collect.ListMultimap;
+import com.google.bc.common.collect.Multimap;
 import com.google.common.collect.testing.features.CollectionFeature;
 import com.google.common.collect.testing.features.CollectionSize;
 import com.google.common.collect.testing.features.MapFeature;

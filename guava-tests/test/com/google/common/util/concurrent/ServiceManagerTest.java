@@ -17,13 +17,14 @@ package com.google.common.util.concurrent;
 
 import static java.util.Arrays.asList;
 
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Sets;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.Sets;
+import com.google.bc.common.util.concurrent.*;
 import com.google.common.testing.NullPointerTester;
 import com.google.common.testing.TestLogHandler;
-import com.google.common.util.concurrent.ServiceManager.Listener;
+import com.google.bc.common.util.concurrent.ServiceManager.Listener;
 
 import junit.framework.TestCase;
 

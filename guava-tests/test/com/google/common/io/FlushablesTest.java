@@ -22,6 +22,7 @@ import static org.easymock.EasyMock.replay;
 import static org.easymock.EasyMock.reset;
 import static org.easymock.EasyMock.verify;
 
+import com.google.bc.common.io.Flushables;
 import junit.framework.TestCase;
 
 import java.io.Flushable;

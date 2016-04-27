@@ -20,9 +20,11 @@ import static com.google.common.io.SourceSinkFactory.ByteSinkFactory;
 import static com.google.common.io.SourceSinkFactory.CharSinkFactory;
 import static org.junit.Assert.assertArrayEquals;
 
-import com.google.common.base.Charsets;
-import com.google.common.collect.ImmutableList;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.collect.ImmutableList;
 
+import com.google.bc.common.io.ByteSink;
+import com.google.bc.common.io.ByteStreams;
 import junit.framework.TestSuite;
 
 import java.io.ByteArrayInputStream;

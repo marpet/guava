@@ -20,6 +20,7 @@ import static com.google.common.math.MathTesting.ALL_BIGINTEGER_CANDIDATES;
 import static com.google.common.math.MathTesting.FINITE_DOUBLE_CANDIDATES;
 import static com.google.common.math.MathTesting.POSITIVE_FINITE_DOUBLE_CANDIDATES;
 
+import com.google.bc.common.math.DoubleUtils;
 import junit.framework.TestCase;
 
 import sun.misc.FpUtils;

@@ -16,18 +16,22 @@
 
 package com.google.common.base;
 
-import static com.google.common.base.CharMatcher.BREAKING_WHITESPACE;
-import static com.google.common.base.CharMatcher.WHITESPACE;
-import static com.google.common.base.CharMatcher.anyOf;
-import static com.google.common.base.CharMatcher.forPredicate;
-import static com.google.common.base.CharMatcher.inRange;
-import static com.google.common.base.CharMatcher.is;
-import static com.google.common.base.CharMatcher.isNot;
-import static com.google.common.base.CharMatcher.noneOf;
+import static com.google.bc.common.base.CharMatcher.BREAKING_WHITESPACE;
+import static com.google.bc.common.base.CharMatcher.WHITESPACE;
+import static com.google.bc.common.base.CharMatcher.anyOf;
+import static com.google.bc.common.base.CharMatcher.forPredicate;
+import static com.google.bc.common.base.CharMatcher.inRange;
+import static com.google.bc.common.base.CharMatcher.is;
+import static com.google.bc.common.base.CharMatcher.isNot;
+import static com.google.bc.common.base.CharMatcher.noneOf;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.collect.Sets;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.CharMatcher;
+import com.google.bc.common.base.Predicates;
+import com.google.bc.common.base.SmallCharMatcher;
+import com.google.bc.common.base.Strings;
+import com.google.bc.common.collect.Sets;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.AssertionFailedError;

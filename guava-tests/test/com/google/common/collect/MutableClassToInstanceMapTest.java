@@ -16,6 +16,8 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.ClassToInstanceMap;
+import com.google.bc.common.collect.MutableClassToInstanceMap;
 import com.google.common.collect.ImmutableClassToInstanceMapTest.TestClassToInstanceMapGenerator;
 import com.google.common.collect.testing.MapTestSuiteBuilder;
 import com.google.common.collect.testing.features.CollectionFeature;

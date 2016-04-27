@@ -21,8 +21,10 @@ import static com.google.common.cache.TestingWeighers.intKeyWeigher;
 import static java.util.Arrays.asList;
 import static org.truth0.Truth.ASSERT;
 
+import com.google.bc.common.cache.CacheBuilder;
+import com.google.bc.common.cache.LoadingCache;
 import com.google.common.cache.CacheTesting.Receiver;
-import com.google.common.cache.LocalCache.ReferenceEntry;
+import com.google.bc.common.cache.LocalCache.ReferenceEntry;
 import com.google.common.cache.TestingCacheLoaders.IdentityLoader;
 import com.google.common.cache.TestingRemovalListeners.CountingRemovalListener;
 

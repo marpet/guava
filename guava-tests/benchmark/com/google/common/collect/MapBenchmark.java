@@ -16,8 +16,12 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.Lists.newArrayList;
+import static com.google.bc.common.collect.Lists.newArrayList;
 
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.ImmutableSortedMap;
+import com.google.bc.common.collect.MapMaker;
+import com.google.bc.common.collect.Maps;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;

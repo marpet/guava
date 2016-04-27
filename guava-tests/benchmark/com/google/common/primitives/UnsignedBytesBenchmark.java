@@ -16,6 +16,7 @@
 
 package com.google.common.primitives;
 
+import com.google.bc.common.primitives.UnsignedBytes;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;

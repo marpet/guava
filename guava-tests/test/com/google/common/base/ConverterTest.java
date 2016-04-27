@@ -16,12 +16,14 @@
 
 package com.google.common.base;
 
-import static com.google.common.base.Functions.toStringFunction;
+import static com.google.bc.common.base.Functions.toStringFunction;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Lists;
-import com.google.common.primitives.Longs;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.base.Converter;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.primitives.Longs;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.SerializableTester;
 

@@ -14,16 +14,18 @@
 
 package com.google.common.base;
 
-import static com.google.common.base.Verify.verify;
-import static com.google.common.base.Verify.verifyNotNull;
+import static com.google.bc.common.base.Verify.verify;
+import static com.google.bc.common.base.Verify.verifyNotNull;
 
-import com.google.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtCompatible;
 
+import com.google.bc.common.base.Verify;
+import com.google.bc.common.base.VerifyException;
 import junit.framework.AssertionFailedError;
 import junit.framework.TestCase;
 
 /**
- * Unit test for {@link com.google.common.base.Verify}.
+ * Unit test for {@link Verify}.
  */
 @GwtCompatible
 public class VerifyTest extends TestCase {

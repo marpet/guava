@@ -16,6 +16,9 @@
 
 package com.google.common.reflect;
 
+import com.google.bc.common.reflect.TypeCapture;
+import com.google.bc.common.reflect.TypeVisitor;
+import com.google.bc.common.reflect.Types;
 import junit.framework.TestCase;
 
 import java.lang.reflect.GenericArrayType;

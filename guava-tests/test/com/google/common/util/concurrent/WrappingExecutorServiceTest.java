@@ -16,12 +16,15 @@
 
 package com.google.common.util.concurrent;
 
-import com.google.common.base.Predicate;
-import com.google.common.base.Predicates;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Iterables;
-import com.google.common.collect.Lists;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.base.Predicates;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Iterables;
+import com.google.bc.common.collect.Lists;
 
+import com.google.bc.common.util.concurrent.Callables;
+import com.google.bc.common.util.concurrent.MoreExecutors;
+import com.google.bc.common.util.concurrent.WrappingExecutorService;
 import junit.framework.TestCase;
 
 import java.util.Collection;

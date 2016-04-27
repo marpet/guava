@@ -16,8 +16,9 @@
 
 package com.google.common.math;
 
-import com.google.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtCompatible;
 
+import com.google.bc.common.math.MathPreconditions;
 import junit.framework.TestCase;
 
 import java.math.BigInteger;

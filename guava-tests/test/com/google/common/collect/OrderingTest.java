@@ -16,21 +16,22 @@
 
 package com.google.common.collect;
 
-import static com.google.common.base.Preconditions.checkArgument;
-import static com.google.common.collect.Lists.newArrayList;
+import static com.google.bc.common.base.Preconditions.checkArgument;
+import static com.google.bc.common.collect.Lists.newArrayList;
 import static com.google.common.testing.SerializableTester.reserialize;
 import static com.google.common.testing.SerializableTester.reserializeAndAssert;
 import static java.util.Arrays.asList;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Function;
-import com.google.common.base.Functions;
-import com.google.common.collect.Ordering.ArbitraryOrdering;
-import com.google.common.collect.Ordering.IncomparableValueException;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Functions;
+import com.google.bc.common.collect.*;
+import com.google.bc.common.collect.Ordering.ArbitraryOrdering;
+import com.google.bc.common.collect.Ordering.IncomparableValueException;
 import com.google.common.collect.testing.Helpers;
-import com.google.common.primitives.Ints;
+import com.google.bc.common.primitives.Ints;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;
 

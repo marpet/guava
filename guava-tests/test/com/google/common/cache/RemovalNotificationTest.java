@@ -16,6 +16,8 @@
 
 package com.google.common.cache;
 
+import com.google.bc.common.cache.RemovalCause;
+import com.google.bc.common.cache.RemovalNotification;
 import com.google.common.testing.EqualsTester;
 
 import junit.framework.TestCase;

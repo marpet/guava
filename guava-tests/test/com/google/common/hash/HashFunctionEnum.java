@@ -16,6 +16,9 @@
 
 package com.google.common.hash;
 
+import com.google.bc.common.hash.HashFunction;
+import com.google.bc.common.hash.Hashing;
+
 /**
  * An enum that contains all of the known hash functions.
  *

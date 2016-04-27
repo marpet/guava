@@ -17,7 +17,7 @@
 package com.google.common.base;
 
 import com.google.caliper.Benchmark;
-import com.google.common.base.Stopwatch;
+import com.google.bc.common.base.Stopwatch;
 
 import java.util.concurrent.TimeUnit;
 

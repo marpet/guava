@@ -18,8 +18,11 @@ package com.google.common.reflect;
 
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableMap;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.reflect.MutableTypeToInstanceMap;
+import com.google.bc.common.reflect.TypeToInstanceMap;
+import com.google.bc.common.reflect.TypeToken;
 import com.google.common.collect.testing.MapTestSuiteBuilder;
 import com.google.common.collect.testing.features.CollectionFeature;
 import com.google.common.collect.testing.features.CollectionSize;

@@ -14,9 +14,10 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.BoundType.CLOSED;
-import static com.google.common.collect.BoundType.OPEN;
+import static com.google.bc.common.collect.BoundType.CLOSED;
+import static com.google.bc.common.collect.BoundType.OPEN;
 
+import com.google.bc.common.collect.*;
 import com.google.common.collect.testing.features.CollectionFeature;
 import com.google.common.collect.testing.features.CollectionSize;
 import com.google.common.collect.testing.google.SortedMultisetTestSuiteBuilder;
@@ -92,7 +93,7 @@ public class ForwardingSortedMultisetTest extends ForwardingMultisetTest {
 
     @Override
     public SortedMultiset<E> subMultiset(
-        E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType) {
+            E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType) {
       return standardSubMultiset(lowerBound, lowerBoundType, upperBound, upperBoundType);
     }
 

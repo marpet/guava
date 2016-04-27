@@ -20,9 +20,13 @@ import static com.google.common.cache.TestingCacheLoaders.exceptionLoader;
 import static com.google.common.cache.TestingRemovalListeners.queuingRemovalListener;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
-import com.google.common.cache.CacheLoader.InvalidCacheLoadException;
+import com.google.bc.common.cache.CacheBuilder;
+import com.google.bc.common.cache.CacheLoader.InvalidCacheLoadException;
+import com.google.bc.common.cache.LoadingCache;
+import com.google.bc.common.cache.RemovalCause;
+import com.google.bc.common.cache.RemovalNotification;
 import com.google.common.cache.TestingRemovalListeners.QueuingRemovalListener;
-import com.google.common.util.concurrent.UncheckedExecutionException;
+import com.google.bc.common.util.concurrent.UncheckedExecutionException;
 
 import junit.framework.TestCase;
 

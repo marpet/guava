@@ -16,9 +16,11 @@
 
 package com.google.common.collect;
 
-import com.google.common.base.Function;
-import com.google.common.base.Joiner;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Joiner;
 
+import com.google.bc.common.collect.Iterables;
+import com.google.bc.common.collect.Iterators;
 import junit.framework.TestCase;
 
 import java.lang.reflect.Array;

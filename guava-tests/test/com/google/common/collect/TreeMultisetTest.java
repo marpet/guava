@@ -16,12 +16,13 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.BoundType.CLOSED;
+import static com.google.bc.common.collect.BoundType.CLOSED;
 import static java.util.Collections.sort;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.*;
 import com.google.common.collect.testing.Helpers.NullsBeforeB;
 import com.google.common.collect.testing.NavigableSetTestSuiteBuilder;
 import com.google.common.collect.testing.TestStringSetGenerator;

@@ -16,7 +16,7 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.MapMakerInternalMap.DRAIN_THRESHOLD;
+import static com.google.bc.common.collect.MapMakerInternalMap.DRAIN_THRESHOLD;
 import static com.google.common.collect.MapMakerInternalMapTest.SMALL_MAX_SIZE;
 import static com.google.common.collect.MapMakerInternalMapTest.allEvictingMakers;
 import static com.google.common.collect.MapMakerInternalMapTest.assertNotified;
@@ -24,12 +24,15 @@ import static com.google.common.collect.MapMakerInternalMapTest.checkAndDrainRec
 import static com.google.common.collect.MapMakerInternalMapTest.checkEvictionQueues;
 import static com.google.common.collect.MapMakerInternalMapTest.checkExpirationTimes;
 
-import com.google.common.base.Function;
-import com.google.common.base.Functions;
-import com.google.common.collect.MapMaker.ComputingMapAdapter;
-import com.google.common.collect.MapMaker.RemovalCause;
-import com.google.common.collect.MapMakerInternalMap.ReferenceEntry;
-import com.google.common.collect.MapMakerInternalMap.Segment;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Functions;
+import com.google.bc.common.collect.ComputingConcurrentHashMap;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.MapMaker;
+import com.google.bc.common.collect.MapMaker.ComputingMapAdapter;
+import com.google.bc.common.collect.MapMaker.RemovalCause;
+import com.google.bc.common.collect.MapMakerInternalMap.ReferenceEntry;
+import com.google.bc.common.collect.MapMakerInternalMap.Segment;
 import com.google.common.collect.MapMakerInternalMapTest.DummyEntry;
 import com.google.common.collect.MapMakerInternalMapTest.DummyValueReference;
 import com.google.common.collect.MapMakerInternalMapTest.QueuingRemovalListener;
@@ -52,7 +55,7 @@ import java.util.concurrent.atomic.AtomicReferenceArray;
 public class ComputingConcurrentHashMapTest extends TestCase {
 
   private static <K, V> ComputingConcurrentHashMap<K, V> makeComputingMap(
-      MapMaker maker, Function<? super K, ? extends V> computingFunction) {
+          MapMaker maker, Function<? super K, ? extends V> computingFunction) {
     return new ComputingConcurrentHashMap<K, V>(
         maker, computingFunction);
   }

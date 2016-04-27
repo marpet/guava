@@ -16,7 +16,8 @@
 
 package com.google.common.util.concurrent;
 
-import com.google.common.collect.Lists;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.util.concurrent.RateLimiter;
 import com.google.common.testing.NullPointerTester;
 import com.google.common.testing.NullPointerTester.Visibility;
 

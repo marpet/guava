@@ -16,7 +16,7 @@
 
 package com.google.common.math;
 
-import com.google.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtCompatible;
 
 /**
  * @author Chris Povirk

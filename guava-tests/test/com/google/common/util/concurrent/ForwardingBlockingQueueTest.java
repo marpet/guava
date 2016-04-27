@@ -16,6 +16,7 @@
 
 package com.google.common.util.concurrent;
 
+import com.google.bc.common.util.concurrent.ForwardingBlockingQueue;
 import junit.framework.TestCase;
 
 /**

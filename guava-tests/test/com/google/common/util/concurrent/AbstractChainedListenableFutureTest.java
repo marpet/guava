@@ -16,6 +16,8 @@
 
 package com.google.common.util.concurrent;
 
+import com.google.bc.common.util.concurrent.ListenableFuture;
+import com.google.bc.common.util.concurrent.SettableFuture;
 import com.google.common.util.concurrent.testing.MockFutureListener;
 
 import junit.framework.TestCase;

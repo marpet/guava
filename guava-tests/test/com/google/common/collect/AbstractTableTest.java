@@ -16,9 +16,12 @@
 
 package com.google.common.collect;
 
-import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.bc.common.base.Preconditions.checkArgument;
 
-import com.google.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.collect.HashBasedTable;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.Table;
 
 import java.util.Map;
 

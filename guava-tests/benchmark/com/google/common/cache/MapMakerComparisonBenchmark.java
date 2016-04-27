@@ -16,11 +16,15 @@
 
 package com.google.common.cache;
 
+import com.google.bc.common.cache.Cache;
+import com.google.bc.common.cache.CacheBuilder;
+import com.google.bc.common.cache.CacheLoader;
+import com.google.bc.common.cache.LoadingCache;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
-import com.google.common.base.Function;
-import com.google.common.base.Functions;
-import com.google.common.collect.MapMaker;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Functions;
+import com.google.bc.common.collect.MapMaker;
 
 import java.util.Map;
 

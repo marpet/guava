@@ -16,23 +16,24 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.Lists.newArrayList;
-import static com.google.common.collect.MapMakerInternalMap.DISCARDING_QUEUE;
-import static com.google.common.collect.MapMakerInternalMap.DRAIN_THRESHOLD;
-import static com.google.common.collect.MapMakerInternalMap.nullEntry;
-import static com.google.common.collect.MapMakerInternalMap.unset;
+import static com.google.bc.common.collect.Lists.newArrayList;
+import static com.google.bc.common.collect.MapMakerInternalMap.DISCARDING_QUEUE;
+import static com.google.bc.common.collect.MapMakerInternalMap.DRAIN_THRESHOLD;
+import static com.google.bc.common.collect.MapMakerInternalMap.nullEntry;
+import static com.google.bc.common.collect.MapMakerInternalMap.unset;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
-import com.google.common.base.Equivalence;
-import com.google.common.base.Ticker;
-import com.google.common.collect.MapMaker.RemovalCause;
-import com.google.common.collect.MapMaker.RemovalListener;
-import com.google.common.collect.MapMaker.RemovalNotification;
-import com.google.common.collect.MapMakerInternalMap.EntryFactory;
-import com.google.common.collect.MapMakerInternalMap.ReferenceEntry;
-import com.google.common.collect.MapMakerInternalMap.Segment;
-import com.google.common.collect.MapMakerInternalMap.Strength;
-import com.google.common.collect.MapMakerInternalMap.ValueReference;
+import com.google.bc.common.base.Equivalence;
+import com.google.bc.common.base.Ticker;
+import com.google.bc.common.collect.*;
+import com.google.bc.common.collect.MapMaker.RemovalCause;
+import com.google.bc.common.collect.MapMaker.RemovalListener;
+import com.google.bc.common.collect.MapMaker.RemovalNotification;
+import com.google.bc.common.collect.MapMakerInternalMap.EntryFactory;
+import com.google.bc.common.collect.MapMakerInternalMap.ReferenceEntry;
+import com.google.bc.common.collect.MapMakerInternalMap.Segment;
+import com.google.bc.common.collect.MapMakerInternalMap.Strength;
+import com.google.bc.common.collect.MapMakerInternalMap.ValueReference;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

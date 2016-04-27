@@ -16,9 +16,10 @@
 
 package com.google.common.eventbus;
 
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Lists;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Lists;
 
+import com.google.bc.common.eventbus.*;
 import junit.framework.TestCase;
 
 import java.util.Collection;
@@ -70,7 +71,8 @@ public class EventBusTest extends TestCase {
     final List<Object> objectEvents = Lists.newArrayList();
     Object objCatcher = new Object() {
       @SuppressWarnings("unused")
-      @Subscribe public void eat(Object food) {
+      @Subscribe
+      public void eat(Object food) {
         objectEvents.add(food);
       }
     };

@@ -16,7 +16,9 @@
 
 package com.google.common.util.concurrent;
 
-import com.google.common.base.Function;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.util.concurrent.Futures;
+import com.google.bc.common.util.concurrent.ListenableFuture;
 
 import java.lang.reflect.UndeclaredThrowableException;
 

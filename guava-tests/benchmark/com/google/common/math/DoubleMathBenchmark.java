@@ -22,6 +22,7 @@ import static com.google.common.math.MathBenchmarking.RANDOM_SOURCE;
 import static com.google.common.math.MathBenchmarking.randomDouble;
 import static com.google.common.math.MathBenchmarking.randomPositiveDouble;
 
+import com.google.bc.common.math.DoubleMath;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 

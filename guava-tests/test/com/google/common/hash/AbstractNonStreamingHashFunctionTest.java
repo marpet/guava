@@ -16,7 +16,11 @@
 
 package com.google.common.hash;
 
-import com.google.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.hash.AbstractNonStreamingHashFunction;
+import com.google.bc.common.hash.AbstractStreamingHashFunction;
+import com.google.bc.common.hash.HashCode;
+import com.google.bc.common.hash.Hasher;
 import com.google.common.hash.HashTestUtils.RandomHasherAction;
 
 import junit.framework.TestCase;

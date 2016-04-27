@@ -16,14 +16,16 @@
 
 package com.google.common.io;
 
-import static com.google.common.io.Files.createTempDir;
-import static com.google.common.io.Files.touch;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.base.Charsets;
-import com.google.common.collect.ImmutableList;
-import com.google.common.hash.Hashing;
-import com.google.common.primitives.Bytes;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.hash.Hashing;
+import com.google.bc.common.io.ByteProcessor;
+import com.google.bc.common.io.Closer;
+import com.google.bc.common.io.Files;
+import com.google.bc.common.io.LineProcessor;
+import com.google.bc.common.primitives.Bytes;
 
 import junit.framework.TestSuite;
 

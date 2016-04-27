@@ -18,9 +18,9 @@ package com.google.common.eventbus.outside;
 
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.collect.Lists;
-import com.google.common.eventbus.EventBus;
-import com.google.common.eventbus.Subscribe;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.eventbus.EventBus;
+import com.google.bc.common.eventbus.Subscribe;
 
 import junit.framework.TestCase;
 

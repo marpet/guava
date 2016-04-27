@@ -16,17 +16,21 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.Iterables.concat;
-import static com.google.common.collect.Lists.newArrayList;
-import static com.google.common.collect.Lists.newLinkedList;
+import static com.google.bc.common.collect.Iterables.concat;
+import static com.google.bc.common.collect.Lists.newArrayList;
+import static com.google.bc.common.collect.Lists.newLinkedList;
 import static java.util.Arrays.asList;
 import static java.util.Collections.nCopies;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Function;
-import com.google.common.base.Predicate;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.collect.Collections2;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.Ordering;
 import com.google.common.collect.testing.CollectionTestSuiteBuilder;
 import com.google.common.collect.testing.TestStringCollectionGenerator;
 import com.google.common.collect.testing.features.CollectionFeature;

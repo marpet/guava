@@ -16,8 +16,10 @@
 
 package com.google.common.util.concurrent;
 
-import com.google.common.util.concurrent.ListenerCallQueue.Callback;
+import com.google.bc.common.util.concurrent.ListenerCallQueue;
+import com.google.bc.common.util.concurrent.ListenerCallQueue.Callback;
 
+import com.google.bc.common.util.concurrent.MoreExecutors;
 import junit.framework.TestCase;
 
 import java.util.concurrent.CountDownLatch;

@@ -16,11 +16,13 @@
 
 package com.google.common.io;
 
-import static com.google.common.base.CharMatcher.WHITESPACE;
+import static com.google.bc.common.base.CharMatcher.WHITESPACE;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.base.Charsets;
-import com.google.common.collect.ImmutableList;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.io.LineProcessor;
+import com.google.bc.common.io.Resources;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestSuite;

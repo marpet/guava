@@ -16,8 +16,11 @@ package com.google.common.cache;
 
 import static java.util.Arrays.asList;
 
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableMap;
+import com.google.bc.common.cache.Cache;
+import com.google.bc.common.cache.CacheBuilder;
+import com.google.bc.common.cache.CacheStats;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableMap;
 
 import junit.framework.TestCase;
 

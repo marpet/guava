@@ -16,7 +16,9 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.collect.ForwardingSortedMap;
+import com.google.bc.common.collect.Ordering;
 import com.google.common.collect.testing.MapInterfaceTest;
 import com.google.common.collect.testing.SortedMapInterfaceTest;
 

@@ -16,10 +16,14 @@
 
 package com.google.common.base;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Equivalence.Wrapper;
-import com.google.common.collect.ImmutableList;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Equivalence;
+import com.google.bc.common.base.Equivalence.Wrapper;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Functions;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.collect.ImmutableList;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.EquivalenceTester;
 import com.google.common.testing.NullPointerTester;

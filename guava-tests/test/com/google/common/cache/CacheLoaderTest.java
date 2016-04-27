@@ -16,11 +16,12 @@
 
 package com.google.common.cache;
 
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.Lists;
-import com.google.common.util.concurrent.Futures;
-import com.google.common.util.concurrent.ListenableFuture;
+import com.google.bc.common.cache.CacheLoader;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.util.concurrent.Futures;
+import com.google.bc.common.util.concurrent.ListenableFuture;
 
 import junit.framework.TestCase;
 

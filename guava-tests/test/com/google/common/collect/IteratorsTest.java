@@ -16,21 +16,22 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.Iterators.advance;
-import static com.google.common.collect.Iterators.get;
-import static com.google.common.collect.Iterators.getLast;
-import static com.google.common.collect.Lists.newArrayList;
+import static com.google.bc.common.collect.Iterators.advance;
+import static com.google.bc.common.collect.Iterators.get;
+import static com.google.bc.common.collect.Iterators.getLast;
+import static com.google.bc.common.collect.Lists.newArrayList;
 import static com.google.common.collect.testing.IteratorFeature.MODIFIABLE;
 import static com.google.common.collect.testing.IteratorFeature.UNMODIFIABLE;
 import static java.util.Arrays.asList;
 import static java.util.Collections.singleton;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Function;
-import com.google.common.base.Predicate;
-import com.google.common.base.Predicates;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.base.Predicates;
+import com.google.bc.common.collect.*;
 import com.google.common.collect.testing.IteratorFeature;
 import com.google.common.collect.testing.IteratorTester;
 import com.google.common.collect.testing.ListTestSuiteBuilder;

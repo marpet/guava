@@ -14,14 +14,15 @@
 
 package com.google.common.cache;
 
-import com.google.common.base.Function;
-import com.google.common.base.Objects;
-import com.google.common.base.Optional;
-import com.google.common.base.Preconditions;
-import com.google.common.cache.LocalCache.Strength;
-import com.google.common.collect.Iterables;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Sets;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Objects;
+import com.google.bc.common.base.Optional;
+import com.google.bc.common.base.Preconditions;
+import com.google.bc.common.cache.CacheBuilder;
+import com.google.bc.common.cache.LocalCache.Strength;
+import com.google.bc.common.collect.Iterables;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.Sets;
 
 import java.util.List;
 import java.util.Set;

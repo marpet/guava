@@ -16,23 +16,24 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.Maps.transformEntries;
-import static com.google.common.collect.Maps.transformValues;
-import static com.google.common.collect.Maps.unmodifiableNavigableMap;
+import static com.google.bc.common.collect.Maps.transformEntries;
+import static com.google.bc.common.collect.Maps.transformValues;
+import static com.google.bc.common.collect.Maps.unmodifiableNavigableMap;
 import static com.google.common.collect.testing.Helpers.mapEntry;
 import static java.util.Arrays.asList;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Converter;
-import com.google.common.base.Equivalence;
-import com.google.common.base.Function;
-import com.google.common.base.Functions;
-import com.google.common.base.Predicate;
-import com.google.common.base.Predicates;
-import com.google.common.collect.Maps.EntryTransformer;
-import com.google.common.collect.Maps.ValueDifferenceImpl;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Converter;
+import com.google.bc.common.base.Equivalence;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Functions;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.base.Predicates;
+import com.google.bc.common.collect.*;
+import com.google.bc.common.collect.Maps.EntryTransformer;
+import com.google.bc.common.collect.Maps.ValueDifferenceImpl;
 import com.google.common.collect.SetsTest.Derived;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;

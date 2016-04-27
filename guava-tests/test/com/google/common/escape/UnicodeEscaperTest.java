@@ -16,8 +16,10 @@
 
 package com.google.common.escape;
 
-import com.google.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtCompatible;
 
+import com.google.bc.common.escape.Escaper;
+import com.google.bc.common.escape.UnicodeEscaper;
 import junit.framework.TestCase;
 
 /**

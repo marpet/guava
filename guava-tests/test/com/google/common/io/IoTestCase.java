@@ -16,7 +16,7 @@
 
 package com.google.common.io;
 
-import com.google.common.collect.Sets;
+import com.google.bc.common.collect.Sets;
 
 import junit.framework.TestCase;
 

@@ -16,6 +16,7 @@
 
 package com.google.common.net;
 
+import com.google.bc.common.net.InetAddresses;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

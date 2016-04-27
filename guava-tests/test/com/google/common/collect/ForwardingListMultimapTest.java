@@ -16,6 +16,9 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.ForwardingListMultimap;
+import com.google.bc.common.collect.ListMultimap;
+
 /**
  * Unit test for {@link ForwardingListMultimap}.
  *

@@ -16,10 +16,12 @@
 
 package com.google.common.collect;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.bc.common.base.Preconditions.checkNotNull;
 
-import com.google.common.collect.Synchronized.SynchronizedCollection;
-import com.google.common.collect.Synchronized.SynchronizedSet;
+import com.google.bc.common.collect.ForwardingMap;
+import com.google.bc.common.collect.Synchronized;
+import com.google.bc.common.collect.Synchronized.SynchronizedCollection;
+import com.google.bc.common.collect.Synchronized.SynchronizedSet;
 import com.google.common.testing.SerializableTester;
 
 import junit.framework.TestCase;

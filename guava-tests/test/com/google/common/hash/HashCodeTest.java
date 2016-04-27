@@ -16,11 +16,13 @@
 
 package com.google.common.hash;
 
-import static com.google.common.io.BaseEncoding.base16;
+import static com.google.bc.common.io.BaseEncoding.base16;
 
-import com.google.common.base.Charsets;
-import com.google.common.collect.ImmutableList;
-import com.google.common.io.BaseEncoding;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.hash.HashCode;
+import com.google.bc.common.hash.Hashing;
+import com.google.bc.common.io.BaseEncoding;
 import com.google.common.testing.ClassSanityTester;
 
 import junit.framework.TestCase;

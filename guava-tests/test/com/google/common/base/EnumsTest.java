@@ -16,9 +16,13 @@
 
 package com.google.common.base;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.collect.ImmutableSet;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Converter;
+import com.google.bc.common.base.Enums;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Optional;
+import com.google.bc.common.collect.ImmutableSet;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.GcFinalization;
 import com.google.common.testing.NullPointerTester;

@@ -16,10 +16,11 @@
 
 package com.google.common.util.concurrent;
 
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Queues;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.Queues;
 
+import com.google.bc.common.util.concurrent.SerializingExecutor;
 import junit.framework.TestCase;
 
 import java.util.List;

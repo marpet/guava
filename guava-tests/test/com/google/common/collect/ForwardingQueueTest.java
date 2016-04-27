@@ -18,6 +18,8 @@ package com.google.common.collect;
 
 import static java.util.Arrays.asList;
 
+import com.google.bc.common.collect.ForwardingQueue;
+import com.google.bc.common.collect.Lists;
 import com.google.common.collect.testing.QueueTestSuiteBuilder;
 import com.google.common.collect.testing.TestStringQueueGenerator;
 import com.google.common.collect.testing.features.CollectionFeature;

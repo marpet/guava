@@ -16,6 +16,8 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Lists;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
 

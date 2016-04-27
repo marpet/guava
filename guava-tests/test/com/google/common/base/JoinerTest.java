@@ -16,15 +16,16 @@
 
 package com.google.common.base;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Joiner.MapJoiner;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableMultimap;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Iterators;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Joiner;
+import com.google.bc.common.base.Joiner.MapJoiner;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.ImmutableMultimap;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Iterators;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.Maps;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.AssertionFailedError;

@@ -16,7 +16,10 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.collect.HashBasedTable;
+import com.google.bc.common.collect.Table;
+import com.google.bc.common.collect.Tables;
 
 /**
  * Test cases for {@link Tables#transpose}.

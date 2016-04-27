@@ -14,9 +14,11 @@
 
 package com.google.common.hash;
 
-import static com.google.common.base.Charsets.UTF_16LE;
+import static com.google.bc.common.base.Charsets.UTF_16LE;
 import static org.junit.Assert.assertArrayEquals;
 
+import com.google.bc.common.hash.AbstractByteHasher;
+import com.google.bc.common.hash.HashCode;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayOutputStream;

@@ -27,13 +27,13 @@ import static java.math.RoundingMode.HALF_UP;
 import static java.math.RoundingMode.UP;
 import static java.util.Arrays.asList;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.base.Function;
-import com.google.common.base.Predicate;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Iterables;
-import com.google.common.primitives.Doubles;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Iterables;
+import com.google.bc.common.primitives.Doubles;
 
 import java.math.BigInteger;
 import java.math.RoundingMode;

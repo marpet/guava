@@ -16,9 +16,10 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.base.Function;
-import com.google.common.base.Functions;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Functions;
+import com.google.bc.common.collect.Maps;
 
 import java.util.Map;
 import java.util.SortedMap;

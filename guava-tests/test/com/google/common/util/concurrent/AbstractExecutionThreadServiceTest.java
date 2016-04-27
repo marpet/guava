@@ -16,6 +16,8 @@
 
 package com.google.common.util.concurrent;
 
+import com.google.bc.common.util.concurrent.AbstractExecutionThreadService;
+import com.google.bc.common.util.concurrent.Service;
 import com.google.common.testing.TearDown;
 import com.google.common.testing.TearDownStack;
 

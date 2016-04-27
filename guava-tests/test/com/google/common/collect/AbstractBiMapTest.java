@@ -14,6 +14,8 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.AbstractBiMap;
+import com.google.bc.common.collect.BiMap;
 import junit.framework.TestCase;
 
 import java.util.IdentityHashMap;

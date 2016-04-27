@@ -16,6 +16,7 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.ForwardingConcurrentMap;
 import junit.framework.TestCase;
 
 import java.util.concurrent.ConcurrentHashMap;

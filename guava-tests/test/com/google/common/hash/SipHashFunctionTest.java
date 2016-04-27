@@ -14,10 +14,14 @@
 
 package com.google.common.hash;
 
-import static com.google.common.base.Charsets.UTF_8;
+import static com.google.bc.common.base.Charsets.UTF_8;
 
-import com.google.common.collect.ImmutableSet;
+import com.google.bc.common.collect.ImmutableSet;
 
+import com.google.bc.common.hash.HashCode;
+import com.google.bc.common.hash.HashFunction;
+import com.google.bc.common.hash.Hashing;
+import com.google.bc.common.hash.SipHashFunction;
 import junit.framework.TestCase;
 
 /**

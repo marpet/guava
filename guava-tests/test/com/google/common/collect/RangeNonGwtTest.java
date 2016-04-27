@@ -16,6 +16,7 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.Range;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

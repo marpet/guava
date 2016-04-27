@@ -16,7 +16,7 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.Maps.newHashMap;
+import static com.google.bc.common.collect.Maps.newHashMap;
 import static com.google.common.collect.testing.Helpers.mapEntry;
 import static com.google.common.collect.testing.features.CollectionFeature.ALLOWS_NULL_VALUES;
 import static com.google.common.collect.testing.features.CollectionFeature.SUPPORTS_REMOVE;
@@ -26,13 +26,14 @@ import static com.google.common.collect.testing.google.MultisetIteratorTester.ge
 import static com.google.common.collect.testing.google.MultisetRemoveTester.getRemoveDuplicateInitializingMethods;
 import static java.lang.reflect.Proxy.newProxyInstance;
 
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Ascii;
-import com.google.common.base.Function;
-import com.google.common.base.Predicate;
-import com.google.common.base.Predicates;
-import com.google.common.base.Supplier;
-import com.google.common.collect.Maps.EntryTransformer;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Ascii;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.base.Predicates;
+import com.google.bc.common.base.Supplier;
+import com.google.bc.common.collect.*;
+import com.google.bc.common.collect.Maps.EntryTransformer;
 import com.google.common.collect.testing.SampleElements;
 import com.google.common.collect.testing.SetTestSuiteBuilder;
 import com.google.common.collect.testing.TestCollectionGenerator;

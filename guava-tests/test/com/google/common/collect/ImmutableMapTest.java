@@ -18,10 +18,11 @@ package com.google.common.collect;
 
 import static com.google.common.testing.SerializableTester.reserialize;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Joiner;
-import com.google.common.collect.ImmutableMap.Builder;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Joiner;
+import com.google.bc.common.collect.*;
+import com.google.bc.common.collect.ImmutableMap.Builder;
 import com.google.common.collect.testing.AnEnum;
 import com.google.common.collect.testing.CollectionTestSuiteBuilder;
 import com.google.common.collect.testing.ListTestSuiteBuilder;

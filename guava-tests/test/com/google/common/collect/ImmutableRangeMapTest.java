@@ -14,10 +14,11 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.BoundType.OPEN;
+import static com.google.bc.common.collect.BoundType.OPEN;
 
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
 
+import com.google.bc.common.collect.*;
 import junit.framework.TestCase;
 
 import java.util.Map;

@@ -16,6 +16,8 @@
 
 package com.google.common.base;
 
+import com.google.bc.common.base.Ascii;
+import com.google.bc.common.base.StandardSystemProperty;
 import junit.framework.TestCase;
 
 /**

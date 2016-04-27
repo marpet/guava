@@ -16,6 +16,10 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.Queues;
+import com.google.bc.common.collect.Synchronized;
 import junit.framework.TestCase;
 
 import java.util.Collection;

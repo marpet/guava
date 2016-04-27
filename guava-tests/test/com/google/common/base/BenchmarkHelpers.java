@@ -14,6 +14,8 @@
 
 package com.google.common.base;
 
+import com.google.bc.common.base.CharMatcher;
+
 /**
  * Common benchmarking utilities.
  *

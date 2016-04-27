@@ -16,7 +16,7 @@
 
 package com.google.common.io;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.bc.common.base.Preconditions.checkNotNull;
 
 import java.io.FilterInputStream;
 import java.io.IOException;

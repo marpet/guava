@@ -28,8 +28,11 @@ import static java.math.BigInteger.valueOf;
 import static java.math.RoundingMode.FLOOR;
 import static java.math.RoundingMode.UNNECESSARY;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.math.BigIntegerMath;
+import com.google.bc.common.math.IntMath;
+import com.google.bc.common.math.LongMath;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

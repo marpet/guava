@@ -18,6 +18,7 @@ package com.google.common.collect;
 
 import static java.util.Arrays.asList;
 
+import com.google.bc.common.collect.EvictingQueue;
 import com.google.common.testing.NullPointerTester;
 import com.google.common.testing.SerializableTester;
 

@@ -16,7 +16,8 @@
 
 package com.google.common.io;
 
-import com.google.common.collect.ImmutableSet;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.io.ByteSink;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

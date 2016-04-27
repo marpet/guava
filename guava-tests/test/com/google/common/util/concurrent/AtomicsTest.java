@@ -16,6 +16,7 @@
 
 package com.google.common.util.concurrent;
 
+import com.google.bc.common.util.concurrent.Atomics;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

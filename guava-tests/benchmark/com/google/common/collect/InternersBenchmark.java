@@ -16,6 +16,8 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.Interner;
+import com.google.bc.common.collect.Interners;
 import com.google.caliper.Benchmark;
 
 /**

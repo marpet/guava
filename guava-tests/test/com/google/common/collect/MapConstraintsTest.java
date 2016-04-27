@@ -19,9 +19,10 @@ package com.google.common.collect;
 import static com.google.common.collect.testing.Helpers.nefariousMapEntry;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Supplier;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Supplier;
+import com.google.bc.common.collect.*;
 import com.google.common.testing.SerializableTester;
 
 import junit.framework.TestCase;

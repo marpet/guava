@@ -16,7 +16,10 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.collect.HashMultimap;
+import com.google.bc.common.collect.ImmutableSetMultimap;
+import com.google.bc.common.collect.Multimap;
 import com.google.common.collect.testing.MapInterfaceTest;
 
 import java.util.Collection;

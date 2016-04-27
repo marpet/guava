@@ -18,9 +18,11 @@ package com.google.common.io;
 
 import static com.google.common.io.SourceSinkFactory.CharSourceFactory;
 
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Lists;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Lists;
 
+import com.google.bc.common.io.CharSource;
+import com.google.bc.common.io.LineProcessor;
 import junit.framework.TestSuite;
 
 import java.io.BufferedReader;

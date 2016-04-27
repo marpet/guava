@@ -19,7 +19,7 @@ package com.google.common.base;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
-import com.google.common.base.Strings;
+import com.google.bc.common.base.Strings;
 
 /**
  * Microbenchmark for {@link Strings#repeat}

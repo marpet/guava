@@ -16,32 +16,33 @@
 
 package com.google.common.net;
 
-import static com.google.common.base.Charsets.UTF_16;
-import static com.google.common.base.Charsets.UTF_8;
-import static com.google.common.net.MediaType.ANY_APPLICATION_TYPE;
-import static com.google.common.net.MediaType.ANY_AUDIO_TYPE;
-import static com.google.common.net.MediaType.ANY_IMAGE_TYPE;
-import static com.google.common.net.MediaType.ANY_TEXT_TYPE;
-import static com.google.common.net.MediaType.ANY_TYPE;
-import static com.google.common.net.MediaType.ANY_VIDEO_TYPE;
-import static com.google.common.net.MediaType.HTML_UTF_8;
-import static com.google.common.net.MediaType.JPEG;
-import static com.google.common.net.MediaType.PLAIN_TEXT_UTF_8;
+import static com.google.bc.common.base.Charsets.UTF_16;
+import static com.google.bc.common.base.Charsets.UTF_8;
+import static com.google.bc.common.net.MediaType.ANY_APPLICATION_TYPE;
+import static com.google.bc.common.net.MediaType.ANY_AUDIO_TYPE;
+import static com.google.bc.common.net.MediaType.ANY_IMAGE_TYPE;
+import static com.google.bc.common.net.MediaType.ANY_TEXT_TYPE;
+import static com.google.bc.common.net.MediaType.ANY_TYPE;
+import static com.google.bc.common.net.MediaType.ANY_VIDEO_TYPE;
+import static com.google.bc.common.net.MediaType.HTML_UTF_8;
+import static com.google.bc.common.net.MediaType.JPEG;
+import static com.google.bc.common.net.MediaType.PLAIN_TEXT_UTF_8;
 import static java.lang.reflect.Modifier.isFinal;
 import static java.lang.reflect.Modifier.isPublic;
 import static java.lang.reflect.Modifier.isStatic;
 import static java.util.Arrays.asList;
 
-import com.google.common.annotations.Beta;
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Function;
-import com.google.common.base.Optional;
-import com.google.common.base.Predicate;
-import com.google.common.base.Throwables;
-import com.google.common.collect.FluentIterable;
-import com.google.common.collect.ImmutableListMultimap;
-import com.google.common.collect.ImmutableMultimap;
+import com.google.bc.common.annotations.Beta;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Optional;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.base.Throwables;
+import com.google.bc.common.collect.FluentIterable;
+import com.google.bc.common.collect.ImmutableListMultimap;
+import com.google.bc.common.collect.ImmutableMultimap;
+import com.google.bc.common.net.MediaType;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;
 

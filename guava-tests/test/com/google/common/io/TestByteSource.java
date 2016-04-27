@@ -16,9 +16,10 @@
 
 package com.google.common.io;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.bc.common.base.Preconditions.checkNotNull;
 
-import com.google.common.collect.ImmutableSet;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.io.ByteSource;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

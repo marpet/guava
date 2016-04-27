@@ -25,21 +25,22 @@ import static java.util.Arrays.asList;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.cache.CacheLoader.InvalidCacheLoadException;
+import com.google.bc.common.cache.*;
+import com.google.bc.common.cache.CacheLoader.InvalidCacheLoadException;
 import com.google.common.cache.TestingCacheLoaders.CountingLoader;
 import com.google.common.cache.TestingCacheLoaders.IdentityLoader;
 import com.google.common.cache.TestingRemovalListeners.CountingRemovalListener;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.Maps;
 import com.google.common.testing.FakeTicker;
 import com.google.common.testing.TestLogHandler;
-import com.google.common.util.concurrent.Callables;
-import com.google.common.util.concurrent.ExecutionError;
-import com.google.common.util.concurrent.Futures;
-import com.google.common.util.concurrent.ListenableFuture;
-import com.google.common.util.concurrent.UncheckedExecutionException;
+import com.google.bc.common.util.concurrent.Callables;
+import com.google.bc.common.util.concurrent.ExecutionError;
+import com.google.bc.common.util.concurrent.Futures;
+import com.google.bc.common.util.concurrent.ListenableFuture;
+import com.google.bc.common.util.concurrent.UncheckedExecutionException;
 
 import junit.framework.TestCase;
 

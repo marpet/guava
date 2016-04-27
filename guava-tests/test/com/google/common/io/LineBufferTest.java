@@ -16,8 +16,10 @@
 
 package com.google.common.io;
 
-import com.google.common.base.Function;
-import com.google.common.collect.Lists;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.io.LineBuffer;
+import com.google.bc.common.io.LineReader;
 
 import java.io.BufferedReader;
 import java.io.FilterReader;

@@ -16,10 +16,14 @@
 
 package com.google.common.collect;
 
-import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.bc.common.base.Preconditions.checkArgument;
 
-import com.google.common.collect.Synchronized.SynchronizedBiMap;
-import com.google.common.collect.Synchronized.SynchronizedSet;
+import com.google.bc.common.collect.BiMap;
+import com.google.bc.common.collect.HashBiMap;
+import com.google.bc.common.collect.Maps;
+import com.google.bc.common.collect.Synchronized;
+import com.google.bc.common.collect.Synchronized.SynchronizedBiMap;
+import com.google.bc.common.collect.Synchronized.SynchronizedSet;
 import com.google.common.collect.testing.features.CollectionFeature;
 import com.google.common.collect.testing.features.CollectionSize;
 import com.google.common.collect.testing.features.MapFeature;

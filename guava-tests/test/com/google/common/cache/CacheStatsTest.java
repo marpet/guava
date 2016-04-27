@@ -16,6 +16,7 @@
 
 package com.google.common.cache;
 
+import com.google.bc.common.cache.CacheStats;
 import junit.framework.TestCase;
 
 /**

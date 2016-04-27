@@ -16,8 +16,9 @@
 
 package com.google.common.io;
 
-import com.google.common.collect.ImmutableSet;
+import com.google.bc.common.collect.ImmutableSet;
 
+import com.google.bc.common.io.Files;
 import junit.framework.TestCase;
 
 import java.io.File;

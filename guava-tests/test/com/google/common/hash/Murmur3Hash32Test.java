@@ -16,8 +16,12 @@
 
 package com.google.common.hash;
 
-import static com.google.common.hash.Hashing.murmur3_32;
+import static com.google.bc.common.hash.Hashing.murmur3_32;
 
+import com.google.bc.common.hash.Funnels;
+import com.google.bc.common.hash.HashCode;
+import com.google.bc.common.hash.Hasher;
+import com.google.bc.common.hash.Murmur3_32HashFunction;
 import com.google.common.hash.HashTestUtils.HashFn;
 
 import junit.framework.TestCase;

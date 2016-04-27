@@ -16,11 +16,14 @@
 
 package com.google.common.hash;
 
-import static com.google.common.base.Charsets.UTF_16LE;
+import static com.google.bc.common.base.Charsets.UTF_16LE;
 
-import com.google.common.collect.Iterables;
-import com.google.common.collect.Lists;
-import com.google.common.hash.AbstractStreamingHashFunction.AbstractStreamingHasher;
+import com.google.bc.common.collect.Iterables;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.hash.AbstractNonStreamingHashFunction;
+import com.google.bc.common.hash.AbstractStreamingHashFunction.AbstractStreamingHasher;
+import com.google.bc.common.hash.HashCode;
+import com.google.bc.common.hash.Hasher;
 import com.google.common.hash.HashTestUtils.RandomHasherAction;
 
 import junit.framework.TestCase;
@@ -198,7 +201,8 @@ public class AbstractStreamingHasherTest extends TestCase {
       this.bufferSize = chunkSize;
     }
 
-    @Override HashCode makeHash() {
+    @Override
+    HashCode makeHash() {
       return HashCode.fromBytes(out.toByteArray());
     }
 

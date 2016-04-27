@@ -16,11 +16,12 @@
 
 package com.google.common.base;
 
-import static com.google.common.base.Throwables.getStackTraceAsString;
+import static com.google.bc.common.base.Throwables.getStackTraceAsString;
 import static java.util.Arrays.asList;
 import static java.util.regex.Pattern.quote;
 
-import com.google.common.collect.Iterables;
+import com.google.bc.common.base.Throwables;
+import com.google.bc.common.collect.Iterables;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

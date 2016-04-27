@@ -16,6 +16,7 @@
 
 package com.google.common.io;
 
+import com.google.bc.common.io.CharSequenceReader;
 import junit.framework.TestCase;
 
 import java.io.IOException;

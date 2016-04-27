@@ -25,7 +25,7 @@ import static com.google.common.math.MathBenchmarking.randomPositiveBigInteger;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
-import com.google.common.math.LongMath;
+import com.google.bc.common.math.LongMath;
 
 import java.math.RoundingMode;
 

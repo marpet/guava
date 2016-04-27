@@ -18,9 +18,10 @@ package com.google.common.reflect;
 
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.base.Predicate;
-import com.google.common.base.Supplier;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.base.Supplier;
 
+import com.google.bc.common.reflect.*;
 import junit.framework.TestCase;
 
 import java.lang.reflect.GenericArrayType;

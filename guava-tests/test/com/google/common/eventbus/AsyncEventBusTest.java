@@ -16,8 +16,9 @@
 
 package com.google.common.eventbus;
 
-import com.google.common.collect.Lists;
+import com.google.bc.common.collect.Lists;
 
+import com.google.bc.common.eventbus.AsyncEventBus;
 import junit.framework.TestCase;
 
 import java.util.List;

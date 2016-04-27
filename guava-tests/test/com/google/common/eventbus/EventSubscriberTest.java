@@ -16,6 +16,7 @@
 
 package com.google.common.eventbus;
 
+import com.google.bc.common.eventbus.EventSubscriber;
 import com.google.common.testing.EqualsTester;
 
 import junit.framework.TestCase;

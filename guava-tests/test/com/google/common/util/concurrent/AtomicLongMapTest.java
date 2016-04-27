@@ -16,10 +16,11 @@
 
 package com.google.common.util.concurrent;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.Sets;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.Sets;
+import com.google.bc.common.util.concurrent.AtomicLongMap;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

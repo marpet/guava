@@ -20,9 +20,9 @@ import com.google.caliper.AfterExperiment;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
-import com.google.common.base.Function;
-import com.google.common.collect.MapMaker;
-import com.google.common.primitives.Ints;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.collect.MapMaker;
+import com.google.bc.common.primitives.Ints;
 
 import java.util.Map;
 import java.util.Random;

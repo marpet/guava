@@ -16,8 +16,9 @@
 
 package com.google.common.io;
 
-import com.google.common.base.Charsets;
-import com.google.common.primitives.Bytes;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.io.LittleEndianDataOutputStream;
+import com.google.bc.common.primitives.Bytes;
 
 import junit.framework.TestCase;
 

@@ -16,31 +16,32 @@
 
 package com.google.common.util.concurrent;
 
-import static com.google.common.base.Throwables.propagateIfInstanceOf;
-import static com.google.common.util.concurrent.Futures.allAsList;
-import static com.google.common.util.concurrent.Futures.get;
-import static com.google.common.util.concurrent.Futures.getUnchecked;
-import static com.google.common.util.concurrent.Futures.immediateFailedFuture;
-import static com.google.common.util.concurrent.Futures.immediateFuture;
-import static com.google.common.util.concurrent.Futures.successfulAsList;
-import static com.google.common.util.concurrent.MoreExecutors.sameThreadExecutor;
+import static com.google.bc.common.base.Throwables.propagateIfInstanceOf;
+import static com.google.bc.common.util.concurrent.Futures.allAsList;
+import static com.google.bc.common.util.concurrent.Futures.get;
+import static com.google.bc.common.util.concurrent.Futures.getUnchecked;
+import static com.google.bc.common.util.concurrent.Futures.immediateFailedFuture;
+import static com.google.bc.common.util.concurrent.Futures.immediateFuture;
+import static com.google.bc.common.util.concurrent.Futures.successfulAsList;
+import static com.google.bc.common.util.concurrent.MoreExecutors.sameThreadExecutor;
 import static java.util.concurrent.Executors.newSingleThreadExecutor;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.easymock.EasyMock.expect;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.base.Function;
-import com.google.common.base.Functions;
-import com.google.common.base.Joiner;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Iterables;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Sets;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.base.Functions;
+import com.google.bc.common.base.Joiner;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Iterables;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.Sets;
+import com.google.bc.common.util.concurrent.*;
 import com.google.common.testing.ClassSanityTester;
 import com.google.common.testing.TestLogHandler;
-import com.google.common.util.concurrent.ForwardingFuture.SimpleForwardingFuture;
+import com.google.bc.common.util.concurrent.ForwardingFuture.SimpleForwardingFuture;
 
 import junit.framework.AssertionFailedError;
 import junit.framework.TestCase;
@@ -77,7 +78,7 @@ import javax.annotation.Nullable;
  */
 public class FuturesTest extends TestCase {
   private static final Logger combinedFutureLogger = Logger.getLogger(
-      "com.google.common.util.concurrent.Futures$CombinedFuture");
+      "Futures$CombinedFuture");
   private final TestLogHandler combinedFutureLogHandler = new TestLogHandler();
 
   private static final String DATA1 = "data";

@@ -16,6 +16,8 @@
 
 package com.google.common.reflect;
 
+import com.google.bc.common.reflect.Invokable;
+import com.google.bc.common.reflect.Parameter;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;
 

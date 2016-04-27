@@ -19,10 +19,10 @@ package com.google.common.collect;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
-import com.google.common.base.Function;
-import com.google.common.collect.ForwardingQueue;
-import com.google.common.collect.MinMaxPriorityQueue;
-import com.google.common.collect.Ordering;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.collect.ForwardingQueue;
+import com.google.bc.common.collect.MinMaxPriorityQueue;
+import com.google.bc.common.collect.Ordering;
 
 import java.math.BigInteger;
 import java.util.Comparator;

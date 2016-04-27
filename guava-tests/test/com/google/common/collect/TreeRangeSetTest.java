@@ -14,11 +14,12 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.BoundType.OPEN;
-import static com.google.common.collect.Range.range;
+import static com.google.bc.common.collect.BoundType.OPEN;
+import static com.google.bc.common.collect.Range.range;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.*;
 
 import java.util.List;
 import java.util.NavigableMap;

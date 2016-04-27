@@ -7,7 +7,8 @@
     <artifactId>guava-parent</artifactId>
     <version>17.0</version>
   </parent>
-  <artifactId>guava</artifactId>
+  <artifactId>bc-guava</artifactId>
+  <version>17.0</version>
   <name>Guava: Google Core Libraries for Java</name>
   <packaging>bundle</packaging>
   <description>

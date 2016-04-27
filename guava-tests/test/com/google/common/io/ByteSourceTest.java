@@ -16,7 +16,7 @@
 
 package com.google.common.io;
 
-import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.bc.common.base.Preconditions.checkArgument;
 import static com.google.common.io.TestOption.AVAILABLE_ALWAYS_ZERO;
 import static com.google.common.io.TestOption.CLOSE_THROWS;
 import static com.google.common.io.TestOption.OPEN_THROWS;
@@ -25,11 +25,12 @@ import static com.google.common.io.TestOption.SKIP_THROWS;
 import static com.google.common.io.TestOption.WRITE_THROWS;
 import static org.junit.Assert.assertArrayEquals;
 
-import com.google.common.base.Charsets;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Iterables;
-import com.google.common.hash.Hashing;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Iterables;
+import com.google.bc.common.hash.Hashing;
+import com.google.bc.common.io.*;
 import com.google.common.testing.TestLogHandler;
 
 import junit.framework.TestSuite;

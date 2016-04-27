@@ -14,6 +14,8 @@
 
 package com.google.common.cache;
 
+import com.google.bc.common.cache.Weigher;
+
 /**
  * Utility {@link Weigher} implementations intended for use in testing.
  *

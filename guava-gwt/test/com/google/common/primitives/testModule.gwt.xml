@@ -3,7 +3,7 @@
   <inherits name="com.google.gwt.user.User"/>
   <inherits name="com.google.gwt.junit.JUnit"/>
   <inherits name="com.google.common.collect.testing.Testing"/>
-  <inherits name="com.google.common.primitives.Primitives"/>
+  <inherits name="Primitives"/>
   <inherits name="com.google.common.testing.Testing"/>
   <inherits name="org.truth0.Truth"/>
   <entry-point class="com.google.common.primitives.TestModuleEntryPoint"/>

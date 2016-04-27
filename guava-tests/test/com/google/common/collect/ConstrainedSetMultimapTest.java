@@ -16,8 +16,12 @@
 
 package com.google.common.collect;
 
-import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.bc.common.base.Preconditions.checkArgument;
 
+import com.google.bc.common.collect.HashMultimap;
+import com.google.bc.common.collect.MapConstraint;
+import com.google.bc.common.collect.MapConstraints;
+import com.google.bc.common.collect.SetMultimap;
 import com.google.common.collect.testing.features.CollectionFeature;
 import com.google.common.collect.testing.features.CollectionSize;
 import com.google.common.collect.testing.features.MapFeature;

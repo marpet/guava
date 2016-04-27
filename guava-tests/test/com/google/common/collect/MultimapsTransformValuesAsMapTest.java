@@ -16,8 +16,11 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.base.Functions;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.base.Functions;
+import com.google.bc.common.collect.ArrayListMultimap;
+import com.google.bc.common.collect.ListMultimap;
+import com.google.bc.common.collect.Multimaps;
 
 import java.util.Collection;
 import java.util.Map;

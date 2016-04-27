@@ -20,10 +20,11 @@ import static com.google.common.escape.testing.EscaperAsserts.assertEscaping;
 import static com.google.common.escape.testing.EscaperAsserts.assertUnescaped;
 import static com.google.common.escape.testing.EscaperAsserts.assertUnicodeEscaping;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.base.Preconditions;
-import com.google.common.escape.UnicodeEscaper;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.base.Preconditions;
+import com.google.bc.common.escape.UnicodeEscaper;
 
+import com.google.bc.common.net.PercentEscaper;
 import junit.framework.TestCase;
 
 /**

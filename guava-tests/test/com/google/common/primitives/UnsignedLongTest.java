@@ -14,9 +14,11 @@
 
 package com.google.common.primitives;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.collect.ImmutableSet;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.primitives.UnsignedLong;
+import com.google.bc.common.primitives.UnsignedLongs;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;
 import com.google.common.testing.SerializableTester;

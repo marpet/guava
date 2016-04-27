@@ -16,7 +16,10 @@
 
 package com.google.common.io;
 
-import com.google.common.collect.Lists;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.io.ByteSource;
+import com.google.bc.common.io.ByteStreams;
+import com.google.bc.common.io.MultiInputStream;
 
 import java.io.ByteArrayInputStream;
 import java.io.FilterInputStream;

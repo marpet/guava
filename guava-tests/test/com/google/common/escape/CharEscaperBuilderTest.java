@@ -16,6 +16,8 @@
 
 package com.google.common.escape;
 
+import com.google.bc.common.escape.CharEscaperBuilder;
+import com.google.bc.common.escape.Escaper;
 import junit.framework.TestCase;
 
 public class CharEscaperBuilderTest extends TestCase {

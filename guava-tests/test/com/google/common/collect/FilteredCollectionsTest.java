@@ -18,8 +18,9 @@ package com.google.common.collect;
 
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.base.Predicate;
-import com.google.common.base.Predicates;
+import com.google.bc.common.base.Predicate;
+import com.google.bc.common.base.Predicates;
+import com.google.bc.common.collect.*;
 import com.google.common.testing.EqualsTester;
 
 import junit.framework.TestCase;

@@ -20,11 +20,15 @@ import static com.google.common.io.SourceSinkFactory.ByteSourceFactory;
 import static com.google.common.io.SourceSinkFactory.CharSourceFactory;
 import static org.junit.Assert.assertArrayEquals;
 
-import com.google.common.base.Charsets;
-import com.google.common.collect.ImmutableList;
-import com.google.common.hash.HashCode;
-import com.google.common.hash.Hashing;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.hash.HashCode;
+import com.google.bc.common.hash.Hashing;
 
+import com.google.bc.common.io.ByteProcessor;
+import com.google.bc.common.io.ByteSink;
+import com.google.bc.common.io.ByteSource;
+import com.google.bc.common.io.ByteStreams;
 import junit.framework.TestSuite;
 
 import java.io.ByteArrayInputStream;

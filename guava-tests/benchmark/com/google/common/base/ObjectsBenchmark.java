@@ -17,7 +17,7 @@
 package com.google.common.base;
 
 import com.google.caliper.Benchmark;
-import com.google.common.base.Objects;
+import com.google.bc.common.base.Objects;
 
 /**
  * Some microbenchmarks for the {@link Objects} class.

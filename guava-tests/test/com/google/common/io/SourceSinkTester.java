@@ -16,12 +16,13 @@
 
 package com.google.common.io;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.bc.common.base.Preconditions.checkNotNull;
 
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.Lists;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.Lists;
 
+import com.google.bc.common.io.CharSource;
 import junit.framework.TestCase;
 
 import java.io.IOException;

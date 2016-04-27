@@ -18,8 +18,11 @@ package com.google.common.collect;
 
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.base.Supplier;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.base.Supplier;
+import com.google.bc.common.collect.Maps;
+import com.google.bc.common.collect.Table;
+import com.google.bc.common.collect.Tables;
 
 import java.util.Map;
 import java.util.TreeMap;

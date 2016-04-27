@@ -16,13 +16,14 @@
 
 package com.google.common.util.concurrent;
 
-import static com.google.common.base.Preconditions.checkState;
-import static com.google.common.util.concurrent.Futures.immediateFuture;
-import static com.google.common.util.concurrent.JdkFutureAdapters.listenInPoolThread;
-import static com.google.common.util.concurrent.MoreExecutors.sameThreadExecutor;
+import static com.google.bc.common.base.Preconditions.checkState;
+import static com.google.bc.common.util.concurrent.Futures.immediateFuture;
+import static com.google.bc.common.util.concurrent.JdkFutureAdapters.listenInPoolThread;
+import static com.google.bc.common.util.concurrent.MoreExecutors.sameThreadExecutor;
 import static java.util.concurrent.Executors.newCachedThreadPool;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
+import com.google.bc.common.util.concurrent.*;
 import com.google.common.testing.ClassSanityTester;
 import com.google.common.util.concurrent.FuturesTest.ExecutorSpy;
 import com.google.common.util.concurrent.FuturesTest.SingleCallListener;

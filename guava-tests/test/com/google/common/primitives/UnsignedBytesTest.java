@@ -16,6 +16,8 @@
 
 package com.google.common.primitives;
 
+import com.google.bc.common.primitives.Ints;
+import com.google.bc.common.primitives.UnsignedBytes;
 import com.google.common.collect.testing.Helpers;
 import com.google.common.testing.NullPointerTester;
 import com.google.common.testing.SerializableTester;

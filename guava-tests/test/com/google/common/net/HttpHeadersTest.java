@@ -16,13 +16,14 @@
 
 package com.google.common.net;
 
-import com.google.common.base.Ascii;
-import com.google.common.base.Joiner;
-import com.google.common.base.Splitter;
-import com.google.common.collect.ImmutableBiMap;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Lists;
+import com.google.bc.common.base.Ascii;
+import com.google.bc.common.base.Joiner;
+import com.google.bc.common.base.Splitter;
+import com.google.bc.common.collect.ImmutableBiMap;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Lists;
 
+import com.google.bc.common.net.HttpHeaders;
 import junit.framework.TestCase;
 
 import java.lang.reflect.Field;

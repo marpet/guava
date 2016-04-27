@@ -16,13 +16,17 @@
 
 package com.google.common.collect;
 
-import static com.google.common.util.concurrent.Uninterruptibles.awaitUninterruptibly;
+import static com.google.bc.common.util.concurrent.Uninterruptibles.awaitUninterruptibly;
 import static java.util.concurrent.TimeUnit.HOURS;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Function;
-import com.google.common.collect.MapMaker.RemovalNotification;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.collect.ComputationException;
+import com.google.bc.common.collect.MapMaker;
+import com.google.bc.common.collect.MapMaker.RemovalNotification;
+import com.google.bc.common.collect.Maps;
+import com.google.bc.common.collect.Sets;
 import com.google.common.collect.MapMakerInternalMapTest.QueuingRemovalListener;
 import com.google.common.testing.NullPointerTester;
 

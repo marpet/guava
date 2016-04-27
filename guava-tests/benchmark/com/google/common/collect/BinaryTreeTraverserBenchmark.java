@@ -14,11 +14,13 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.BinaryTreeTraverser;
+import com.google.bc.common.collect.TreeTraverser;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
-import com.google.common.base.Optional;
-import com.google.common.primitives.Ints;
+import com.google.bc.common.base.Optional;
+import com.google.bc.common.primitives.Ints;
 
 import java.util.List;
 import java.util.Random;

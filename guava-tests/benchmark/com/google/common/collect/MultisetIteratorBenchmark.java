@@ -16,10 +16,13 @@
 
 package com.google.common.collect;
 
+import com.google.bc.common.collect.HashMultiset;
+import com.google.bc.common.collect.LinkedHashMultiset;
+import com.google.bc.common.collect.TreeMultiset;
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
-import com.google.common.base.Preconditions;
+import com.google.bc.common.base.Preconditions;
 
 import java.util.Random;
 

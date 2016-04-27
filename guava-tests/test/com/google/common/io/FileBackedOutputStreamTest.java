@@ -16,6 +16,8 @@
 
 package com.google.common.io;
 
+import com.google.bc.common.io.ByteSource;
+import com.google.bc.common.io.FileBackedOutputStream;
 import com.google.common.testing.GcFinalization;
 
 import java.io.File;

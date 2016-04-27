@@ -16,12 +16,13 @@
 
 package com.google.common.base;
 
-import static com.google.common.base.CharMatcher.WHITESPACE;
-import static com.google.common.collect.Lists.newArrayList;
+import static com.google.bc.common.base.CharMatcher.WHITESPACE;
+import static com.google.bc.common.collect.Lists.newArrayList;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.collect.ImmutableSet;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.*;
+import com.google.bc.common.collect.ImmutableSet;
 import com.google.common.testing.ClassSanityTester;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;

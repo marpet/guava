@@ -16,7 +16,9 @@
 
 package com.google.common.base;
 
-import com.google.common.base.internal.Finalizer;
+import com.google.bc.common.base.FinalizableReferenceQueue;
+import com.google.bc.common.base.FinalizableWeakReference;
+import com.google.bc.common.base.internal.Finalizer;
 import com.google.common.testing.GcFinalization;
 
 import junit.framework.TestCase;

@@ -16,8 +16,11 @@
 
 package com.google.common.collect;
 
-import com.google.common.collect.Synchronized.SynchronizedNavigableSet;
-import com.google.common.collect.Synchronized.SynchronizedSortedSet;
+import com.google.bc.common.collect.Ordering;
+import com.google.bc.common.collect.Sets;
+import com.google.bc.common.collect.Synchronized;
+import com.google.bc.common.collect.Synchronized.SynchronizedNavigableSet;
+import com.google.bc.common.collect.Synchronized.SynchronizedSortedSet;
 import com.google.common.collect.testing.NavigableSetTestSuiteBuilder;
 import com.google.common.collect.testing.SafeTreeSet;
 import com.google.common.collect.testing.TestStringSortedSetGenerator;

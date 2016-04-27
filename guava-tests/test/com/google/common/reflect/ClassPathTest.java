@@ -18,14 +18,15 @@ package com.google.common.reflect;
 
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.base.Charsets;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.Maps;
-import com.google.common.collect.Sets;
-import com.google.common.io.Closer;
-import com.google.common.io.Resources;
-import com.google.common.reflect.ClassPath.ClassInfo;
-import com.google.common.reflect.ClassPath.ResourceInfo;
+import com.google.bc.common.base.Charsets;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.Maps;
+import com.google.bc.common.collect.Sets;
+import com.google.bc.common.io.Closer;
+import com.google.bc.common.io.Resources;
+import com.google.bc.common.reflect.ClassPath;
+import com.google.bc.common.reflect.ClassPath.ClassInfo;
+import com.google.bc.common.reflect.ClassPath.ResourceInfo;
 import com.google.common.reflect.subpackage.ClassInSubPackage;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;
@@ -74,7 +75,7 @@ public class ClassPathTest extends TestCase {
         "com/google/common/reflect/ClassPathTest$Nested.class",
         testResourceName);
     ASSERT.that(byToString.keySet()).has().allOf(
-        "com.google.common.reflect.ClassPath",
+        "ClassPath",
         "com.google.common.reflect.ClassPathTest",
         "com.google.common.reflect.ClassPathTest$Nested",
         testResourceName);

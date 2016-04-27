@@ -16,6 +16,8 @@
 
 package com.google.common.io;
 
+import com.google.bc.common.io.*;
+
 import java.io.File;
 import java.io.IOException;
 

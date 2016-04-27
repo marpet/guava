@@ -16,12 +16,13 @@
 
 package com.google.common.net;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.base.Ascii;
-import com.google.common.base.Strings;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Iterables;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.base.Ascii;
+import com.google.bc.common.base.Strings;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Iterables;
+import com.google.bc.common.net.InternetDomainName;
 import com.google.common.testing.EqualsTester;
 import com.google.common.testing.NullPointerTester;
 

@@ -16,8 +16,9 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.Maps.immutableEntry;
+import static com.google.bc.common.collect.Maps.immutableEntry;
 
+import com.google.bc.common.collect.ForwardingNavigableMap;
 import com.google.common.collect.testing.NavigableMapTestSuiteBuilder;
 import com.google.common.collect.testing.SafeTreeMap;
 import com.google.common.collect.testing.TestStringSortedMapGenerator;

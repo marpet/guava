@@ -19,11 +19,12 @@ package com.google.common.util.concurrent;
 import static java.lang.Thread.currentThread;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Iterables;
-import com.google.common.collect.Lists;
-import com.google.common.util.concurrent.Service.Listener;
-import com.google.common.util.concurrent.Service.State;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Iterables;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.util.concurrent.*;
+import com.google.bc.common.util.concurrent.Service.Listener;
+import com.google.bc.common.util.concurrent.Service.State;
 
 import junit.framework.TestCase;
 

@@ -22,6 +22,10 @@ import static org.easymock.EasyMock.expectLastCall;
 import static org.easymock.EasyMock.replay;
 import static org.easymock.EasyMock.verify;
 
+import com.google.bc.common.collect.ForwardingMap;
+import com.google.bc.common.collect.ImmutableMap;
+import com.google.bc.common.collect.Iterators;
+import com.google.bc.common.collect.Maps;
 import com.google.common.collect.testing.MapTestSuiteBuilder;
 import com.google.common.collect.testing.TestStringMapGenerator;
 import com.google.common.collect.testing.features.CollectionFeature;

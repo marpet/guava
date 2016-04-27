@@ -16,6 +16,7 @@
 
 package com.google.common.net;
 
+import com.google.bc.common.net.InternetDomainName;
 import com.google.common.testing.AbstractPackageSanityTests;
 
 /**

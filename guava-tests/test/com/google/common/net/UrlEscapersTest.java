@@ -19,13 +19,14 @@ package com.google.common.net;
 import static com.google.common.escape.testing.EscaperAsserts.assertEscaping;
 import static com.google.common.escape.testing.EscaperAsserts.assertUnescaped;
 import static com.google.common.escape.testing.EscaperAsserts.assertUnicodeEscaping;
-import static com.google.common.net.UrlEscapers.urlFormParameterEscaper;
-import static com.google.common.net.UrlEscapers.urlFragmentEscaper;
-import static com.google.common.net.UrlEscapers.urlPathSegmentEscaper;
+import static com.google.bc.common.net.UrlEscapers.urlFormParameterEscaper;
+import static com.google.bc.common.net.UrlEscapers.urlFragmentEscaper;
+import static com.google.bc.common.net.UrlEscapers.urlPathSegmentEscaper;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.escape.UnicodeEscaper;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.escape.UnicodeEscaper;
 
+import com.google.bc.common.net.UrlEscapers;
 import junit.framework.TestCase;
 
 /**

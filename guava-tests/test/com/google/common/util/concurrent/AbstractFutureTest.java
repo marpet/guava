@@ -18,6 +18,7 @@ package com.google.common.util.concurrent;
 
 import static org.truth0.Truth.ASSERT;
 
+import com.google.bc.common.util.concurrent.AbstractFuture;
 import junit.framework.AssertionFailedError;
 import junit.framework.TestCase;
 

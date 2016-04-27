@@ -20,7 +20,7 @@
    
   <inherits name="com.google.common.math.Math"/>
    
-  <inherits name="com.google.common.primitives.Primitives"/>
+  <inherits name="Primitives"/>
     
   <inherits name="com.google.gwt.core.Core"/>
    

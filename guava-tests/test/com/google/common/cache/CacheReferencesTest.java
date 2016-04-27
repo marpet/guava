@@ -14,15 +14,18 @@
 
 package com.google.common.cache;
 
-import static com.google.common.cache.LocalCache.Strength.STRONG;
-import static com.google.common.collect.Maps.immutableEntry;
+import static com.google.bc.common.cache.LocalCache.Strength.STRONG;
+import static com.google.bc.common.collect.Maps.immutableEntry;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.base.Function;
-import com.google.common.cache.LocalCache.Strength;
+import com.google.bc.common.base.Function;
+import com.google.bc.common.cache.CacheBuilder;
+import com.google.bc.common.cache.CacheLoader;
+import com.google.bc.common.cache.LoadingCache;
+import com.google.bc.common.cache.LocalCache.Strength;
 import com.google.common.cache.TestingRemovalListeners.CountingRemovalListener;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Iterables;
+import com.google.bc.common.collect.ImmutableSet;
+import com.google.bc.common.collect.Iterables;
 
 import junit.framework.TestCase;
 

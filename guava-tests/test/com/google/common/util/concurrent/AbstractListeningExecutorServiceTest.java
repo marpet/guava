@@ -16,8 +16,11 @@
 
 package com.google.common.util.concurrent;
 
-import com.google.common.collect.ImmutableList;
+import com.google.bc.common.collect.ImmutableList;
 
+import com.google.bc.common.util.concurrent.AbstractListeningExecutorService;
+import com.google.bc.common.util.concurrent.ListenableFuture;
+import com.google.bc.common.util.concurrent.ListenableFutureTask;
 import junit.framework.TestCase;
 
 import java.util.List;

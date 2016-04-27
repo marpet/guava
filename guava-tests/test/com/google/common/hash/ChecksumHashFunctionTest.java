@@ -14,11 +14,13 @@
 
 package com.google.common.hash;
 
-import static com.google.common.hash.Hashing.ChecksumType.ADLER_32;
-import static com.google.common.hash.Hashing.ChecksumType.CRC_32;
+import static com.google.bc.common.hash.Hashing.ChecksumType.ADLER_32;
+import static com.google.bc.common.hash.Hashing.ChecksumType.CRC_32;
 
-import com.google.common.base.Supplier;
+import com.google.bc.common.base.Supplier;
 
+import com.google.bc.common.hash.ChecksumHashFunction;
+import com.google.bc.common.hash.HashFunction;
 import junit.framework.TestCase;
 
 import java.util.zip.Checksum;

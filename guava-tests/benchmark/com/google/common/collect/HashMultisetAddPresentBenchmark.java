@@ -16,8 +16,8 @@ package com.google.common.collect;
 
 import com.google.caliper.BeforeExperiment;
 import com.google.caliper.Benchmark;
-import com.google.common.collect.HashMultiset;
-import com.google.common.collect.Multiset;
+import com.google.bc.common.collect.HashMultiset;
+import com.google.bc.common.collect.Multiset;
 
 import java.util.ArrayList;
 import java.util.List;

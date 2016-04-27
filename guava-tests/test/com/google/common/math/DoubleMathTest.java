@@ -36,11 +36,13 @@ import static java.math.RoundingMode.UNNECESSARY;
 import static java.math.RoundingMode.UP;
 import static java.util.Arrays.asList;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Iterables;
-import com.google.common.primitives.Doubles;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Iterables;
+import com.google.bc.common.math.BigIntegerMath;
+import com.google.bc.common.math.DoubleMath;
+import com.google.bc.common.primitives.Doubles;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

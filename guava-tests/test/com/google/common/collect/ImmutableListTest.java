@@ -16,14 +16,18 @@
 
 package com.google.common.collect;
 
-import static com.google.common.collect.Iterables.getOnlyElement;
-import static com.google.common.collect.Iterables.unmodifiableIterable;
-import static com.google.common.collect.Sets.newHashSet;
+import static com.google.bc.common.collect.Iterables.getOnlyElement;
+import static com.google.bc.common.collect.Iterables.unmodifiableIterable;
+import static com.google.bc.common.collect.Sets.newHashSet;
 import static java.lang.reflect.Proxy.newProxyInstance;
 import static java.util.Arrays.asList;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.Iterators;
+import com.google.bc.common.collect.Lists;
+import com.google.bc.common.collect.SingletonImmutableList;
 import com.google.common.collect.testing.Helpers;
 import com.google.common.collect.testing.ListTestSuiteBuilder;
 import com.google.common.collect.testing.MinimalCollection;

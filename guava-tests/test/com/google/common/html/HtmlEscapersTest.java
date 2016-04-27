@@ -14,10 +14,11 @@
 
 package com.google.common.html;
 
-import static com.google.common.html.HtmlEscapers.htmlEscaper;
+import static com.google.bc.common.html.HtmlEscapers.htmlEscaper;
 
-import com.google.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtCompatible;
 
+import com.google.bc.common.html.HtmlEscapers;
 import junit.framework.TestCase;
 
 /**

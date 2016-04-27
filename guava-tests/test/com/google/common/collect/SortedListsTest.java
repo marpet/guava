@@ -14,10 +14,12 @@
 
 package com.google.common.collect;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
-import com.google.common.collect.SortedLists.KeyAbsentBehavior;
-import com.google.common.collect.SortedLists.KeyPresentBehavior;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.ImmutableList;
+import com.google.bc.common.collect.SortedLists;
+import com.google.bc.common.collect.SortedLists.KeyAbsentBehavior;
+import com.google.bc.common.collect.SortedLists.KeyPresentBehavior;
 import com.google.common.testing.NullPointerTester;
 
 import junit.framework.TestCase;

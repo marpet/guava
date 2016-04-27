@@ -19,8 +19,10 @@ package com.google.common.collect;
 import static com.google.common.collect.testing.IteratorFeature.UNMODIFIABLE;
 import static org.truth0.Truth.ASSERT;
 
-import com.google.common.annotations.GwtCompatible;
-import com.google.common.annotations.GwtIncompatible;
+import com.google.bc.common.annotations.GwtCompatible;
+import com.google.bc.common.annotations.GwtIncompatible;
+import com.google.bc.common.collect.AbstractSequentialIterator;
+import com.google.bc.common.collect.ImmutableList;
 import com.google.common.collect.testing.IteratorTester;
 
 import junit.framework.AssertionFailedError;
